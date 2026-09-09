@@ -113,7 +113,7 @@ export default async function CatchAllPage({ params }: PageProps) {
     <>
       <Nav locale={locale} />
 
-      <div className="mx-auto w-full max-w-[1600px]">
+      <div className="w-full">
         {route === "about" && <AboutPageContent locale={locale} />}
 
         {route === "mining" && (
