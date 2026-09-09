@@ -1,6 +1,6 @@
-# =========================
+# ============================================================
 # DEPENDENCIES
-# =========================
+# ============================================================
 
 FROM node:22-alpine AS deps
 
@@ -11,9 +11,9 @@ COPY hejotrade/package.json hejotrade/package-lock.json ./
 RUN npm ci
 
 
-# =========================
+# ============================================================
 # BUILD
-# =========================
+# ============================================================
 
 FROM node:22-alpine AS builder
 
@@ -28,9 +28,9 @@ ENV NEXT_TELEMETRY_DISABLED=1
 RUN npm run build
 
 
-# =========================
+# ============================================================
 # PRODUCTION
-# =========================
+# ============================================================
 
 FROM node:22-alpine AS runner
 
@@ -50,6 +50,7 @@ RUN mkdir .next \
     && chown nextjs:nodejs .next
 
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
+
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 
 USER nextjs
