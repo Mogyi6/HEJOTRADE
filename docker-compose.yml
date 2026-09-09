@@ -1,7 +1,7 @@
 services:
   hejotrade:
     build:
-      context: https://github.com/Mogyi6/HEJOTRADE.git#main
+      context: .
       dockerfile: hejotrade/Dockerfile
 
     container_name: hejotrade-web
