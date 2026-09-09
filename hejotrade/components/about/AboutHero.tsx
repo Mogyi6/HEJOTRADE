@@ -175,45 +175,46 @@ export default function AboutHero({ t }: Props) {
         {/* ================================================== */}
         {/* JOBB OLDAL – HERO KÉP */}
         {/* ================================================== */}
-        {/* Csak lg mérettől jelenik meg.
-            Ez ugyanaz a breakpoint, ahol a hamburger eltűnik. */}
 
         <div className="relative hidden h-full min-h-0 items-center lg:flex">
-          <div
-            className="
-              relative
-              h-full
-              max-h-[520px]
-              min-h-0
-              w-full
-              overflow-hidden
-              rounded-[2rem]
-              border
-              border-white/15
-              bg-white/5
-              shadow-2xl
-            "
-          >
-            <Image
-              src="/hero.jpg"
-              alt={t.title}
-              fill
-              priority
-              sizes="(max-width: 1023px) 0px, 50vw"
-              className="object-cover"
-            />
+          <div className="relative h-full max-h-[520px] w-full">
+            {/* Bal alsó dekoratív keret - pontosan a kép sarokívéhez kötve */}
+            <div className="absolute -bottom-3 -left-3 z-0 hidden h-20 w-20 -translate-x-1/3 translate-y-1/3 rounded-2xl border border-[#E8DCC4]/30 lg:block" />
 
-            {/* Finom sötét overlay */}
-            <div className="absolute inset-0 bg-[#123F45]/10" />
+            {/* Jobb felső dekoratív keret - pontosan a kép sarokívéhez kötve */}
+            <div className="absolute -right-3 -top-3 z-0 hidden h-16 w-16 -translate-y-1/3 translate-x-1/3 rounded-2xl border border-white/15 lg:block" />
 
-            {/* Alsó gradient */}
-            <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#123F45]/40 to-transparent" />
+            {/* Kép konténer */}
+            <div
+              className="
+                relative
+                z-10
+                h-full
+                w-full
+                overflow-hidden
+                rounded-[2rem]
+                border
+                border-white/15
+                bg-white/5
+                shadow-2xl
+              "
+            >
+              <Image
+                src="/hero.jpg"
+                alt={t.title}
+                fill
+                priority
+                sizes="(max-width: 1023px) 0px, 50vw"
+                className="object-cover"
+              />
+
+              {/* Finom sötét overlay */}
+              <div className="absolute inset-0 bg-[#123F45]/10" />
+
+              {/* Alsó gradient */}
+              <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#123F45]/40 to-transparent" />
+            </div>
           </div>
-
-          {/* Dekoratív keret */}
-          <div className="absolute -bottom-4 -left-4 hidden h-20 w-20 rounded-2xl border border-[#E8DCC4]/30 lg:block" />
-
-          <div className="absolute -right-4 -top-4 hidden h-16 w-16 rounded-2xl border border-white/10 lg:block" />
         </div>
       </div>
     </section>
