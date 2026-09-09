@@ -1,21 +1,19 @@
-# ============================================================
+# =========================
 # DEPENDENCIES
-# ============================================================
+# =========================
 
 FROM node:22-alpine AS deps
 
 WORKDIR /app
 
-# A build context a repository gyökere,
-# ezért a hejotrade mappából másolunk
 COPY hejotrade/package.json hejotrade/package-lock.json ./
 
 RUN npm ci
 
 
-# ============================================================
+# =========================
 # BUILD
-# ============================================================
+# =========================
 
 FROM node:22-alpine AS builder
 
@@ -23,7 +21,6 @@ WORKDIR /app
 
 COPY --from=deps /app/node_modules ./node_modules
 
-# Csak a Next.js projektet másoljuk be
 COPY hejotrade/ .
 
 ENV NEXT_TELEMETRY_DISABLED=1
@@ -31,9 +28,9 @@ ENV NEXT_TELEMETRY_DISABLED=1
 RUN npm run build
 
 
-# ============================================================
+# =========================
 # PRODUCTION
-# ============================================================
+# =========================
 
 FROM node:22-alpine AS runner
 
