@@ -1,0 +1,832 @@
+{
+  "company": {
+    "name": "HEJŐTRADE",
+    "subtitle": "Bányászati, Építőipari, Kereskedelmi, Tanácsadó és Szolgáltató Kft."
+  },
+  "nav": {
+    "mainNavigation": "Fő navigáció",
+    "mobileNavigation": "Mobil navigáció",
+    "logoAlt": "HEJŐTRADE logó",
+    "logoAria": "HEJŐTRADE kezdőlap",
+    "openMenu": "Menü megnyitása",
+    "closeMenu": "Menü bezárása",
+    "items": {
+      "about": "Bemutatkozás",
+      "mining": "Bányászat / Geotermia",
+      "energy": "Energetika / Villamos kivitelezés",
+      "technology": "Technológiai kivitelezés",
+      "generalContracting": "Fővállalkozás",
+      "contact": "Elérhetőségeink"
+    }
+  },
+  "serviceCommon": {
+    "home": "Bemutatkozás",
+    "pageType": "Szakterületi oldal",
+    "sections": {
+      "overview": "Áttekintés",
+      "capabilities": "Tevékenységek",
+      "references": "Referenciák",
+      "capacity": "Kapacitás"
+    }
+  },
+  "about": {
+    "title": "Bemutatkozás",
+    "description": "A HEJŐTRADE Kft. 1997-ben alakult Miskolcon, azzal a céllal, hogy bányászati és energetikai feladatokat végezzen megrendelői számára.",
+    "hero": {
+      "eyebrow": "HEJŐTRADE",
+      "title": "Több mint 25 év mérnöki és ipari tapasztalat",
+      "description": "Bányászati, energetikai, mérnöki és kivitelezési megoldások egy tapasztalt, magyar tulajdonú vállalkozástól.",
+      "since": "1997 óta",
+      "ownership": "Magyar tulajdon",
+      "engineering": "Mérnöki szakértelem",
+      "imagePlaceholder": "Hero kép helye",
+      "imageSize": "1600 × 1000 px"
+    },
+    "introduction": {
+      "eyebrow": "A Társaság Bemutatása",
+      "titleLine1": "Tapasztalat,",
+      "titleLine2": "mérnöki tudás,",
+      "titleLine3": "megbízhatóság.",
+      "lead": "A HEJŐTRADE Kft. 1997 óta működő, magyar tulajdonú vállalkozás, amely az évtizedek során folyamatosan bővítette szakmai kompetenciáit.",
+      "paragraph1": "A HEJŐTRADE Kft. 1997-ben alakult meg Miskolcon azzal a céllal, hogy bányászati és energetikai feladatokat végezzen megrendelői számára.",
+      "paragraph2": "A társaság alapítója Bánhegyi Árpád aranydiplomás építőmérnök, a Borsod Megyei Állami Építőipari Vállalat korábbi vezérigazgatója volt, aki a vállalkozás szakmai alapjait a mérnöki tudásra és gyakorlati tapasztalatra építette.",
+      "paragraph3": "Az elmúlt évtizedekben tevékenységi körünk jelentősen kibővült: a bányászati tervezéstől és műszaki tanácsadástól kezdve az energetikai projekteken és fővállalkozáson át egészen az acélszerkezeti gyártásig és technológiai előgyártásig.",
+      "quote": "A megbízható teljesítés és a hosszú távú szakmai kapcsolatok működésünk egyik legfontosabb alapját jelentik."
+    },
+    "history": {
+      "eyebrow": "Történetünk",
+      "title": "Több mint két évtized tapasztalata",
+      "description": "A folyamatos fejlődés, az új szakmai területek és a hosszú távú partneri kapcsolatok az évek során meghatározták a HEJŐTRADE működését.",
+      "milestones": {
+        "1997": {
+          "year": "1997",
+          "title": "A HEJŐTRADE megalakulása",
+          "description": "A társaság Miskolcon alakult meg bányászati és energetikai feladatok ellátására."
+        },
+        "2000": {
+          "year": "2000+",
+          "title": "Infrastrukturális beruházások",
+          "description": "Jelentős út-, infrastruktúra- és ipari beruházásokban való részvétel Északkelet-Magyarországon."
+        },
+        "2010": {
+          "year": "2010+",
+          "title": "A szakmai tevékenységek bővülése",
+          "description": "A fővállalkozás, a geotermikus projektek, az energetikai tanácsadás és a mérnöki szolgáltatások fokozatosan a társaság tevékenységének részévé váltak."
+        },
+        "2022": {
+          "year": "2022",
+          "title": "Budapesti székhely",
+          "description": "A székhely és a központi adminisztráció Budapestre került, miközben a miskolci iroda és telephely továbbra is működik."
+        },
+        "2022_2025": {
+          "year": "2022–2025",
+          "title": "Energetikai projektek",
+          "description": "Ipari fogyasztók energetikai ellátásában, valamint ESCO-finanszírozású fejlesztésekben való részvétel MVM-vállalatok szerződött partnereként."
+        },
+        "2023": {
+          "year": "2023",
+          "title": "Minőségirányítás",
+          "description": "2023 óta MSZ EN ISO 9001:2015 alapú minőségirányítási rendszer működik a társaságnál."
+        }
+      }
+    },
+    "activities": {
+      "eyebrow": "Szakterületeink",
+      "titleLine1": "Komplex megoldások",
+      "titleLine2": "egy kézből",
+      "description": "Szakmai kompetenciáink egymást kiegészítve teszik lehetővé összetett ipari, energetikai és kivitelezési projektek megvalósítását.",
+      "items": {
+        "mining": {
+          "number": "01",
+          "title": "Bányászati tervezés",
+          "description": "Bányászati és anyagnyerőhelyi projektek tervezése, engedélyezése és szakmai támogatása.",
+          "services": [
+            "Műszaki üzemi tervek",
+            "Geológiai tanulmányok",
+            "Anyagvizsgálatok",
+            "Bányaszolgalmi ügyintézés"
+          ]
+        },
+        "energy": {
+          "number": "02",
+          "title": "Villamos energetika",
+          "description": "Ipari energiaellátási rendszerek tervezése, engedélyeztetése és kivitelezése.",
+          "services": [
+            "Alállomások",
+            "Földkábelek",
+            "Toksínrendszerek",
+            "Ipari energiaellátás"
+          ]
+        },
+        "esco": {
+          "number": "03",
+          "title": "ESCO projektek",
+          "description": "Ipari fogyasztók energetikai fejlesztéseinek és ESCO-finanszírozású projektjeinek menedzselése.",
+          "services": [
+            "Energetikai megoldások",
+            "Hálózati csatlakozás",
+            "Engedélyeztetés",
+            "Projektmenedzsment"
+          ]
+        },
+        "generalContracting": {
+          "number": "04",
+          "title": "Fővállalkozás",
+          "description": "Komplex építőipari és ipari beruházások teljes körű koordinációja és megvalósítása.",
+          "services": [
+            "Ipari beruházások",
+            "Infrastruktúra",
+            "Tartályparkok",
+            "Műtárgyak"
+          ]
+        },
+        "steel": {
+          "number": "05",
+          "title": "Acélszerkezetek",
+          "description": "Acélszerkezeti gyártás, technológiai előgyártás és helyszíni kivitelezés.",
+          "services": [
+            "Acélszerkezet gyártás",
+            "AWI hegesztés",
+            "Csőszerelés",
+            "Lakatos munkák"
+          ]
+        },
+        "engineering": {
+          "number": "06",
+          "title": "Mérnöki tanácsadás",
+          "description": "Tapasztalt mérnöki háttér összetett ipari és energetikai projektek támogatására.",
+          "services": [
+            "Műszaki tanácsadás",
+            "Tervezés",
+            "Projektvezetés",
+            "Műszaki ellenőrzés"
+          ]
+        }
+      }
+    },
+    "references": {
+      "eyebrow": "Referenciák",
+      "title": "Projektek, amelyekre büszkék vagyunk",
+      "imagePlaceholder": "Referencia kép helye",
+      "items": {
+        "bmw": {
+          "title": "BMW Debrecen",
+          "category": "Villamos energetika",
+          "description": "Alállomások telepítése, vezetéképítés, munkaterület energiaellátása és Siemens toksínrendszer kiépítése.",
+          "images": [
+            "/images/references/bmw-1.jpg",
+            "/images/references/bmw-2.jpg",
+            "/images/references/bmw-3.jpg"
+          ]
+        },
+        "salgotarjan": {
+          "title": "Salgótarján Tóstrand",
+          "category": "Acélszerkezeti kivitelezés",
+          "description": "A városi stadion acélszerkezetű lelátójának első üteméhez kapcsolódó gyártási és generálkivitelezési feladatok.",
+          "images": [
+            "/images/references/salgotarjan-1.jpg",
+            "/images/references/salgotarjan-2.jpg"
+          ]
+        },
+        "pimco": {
+          "title": "PIMCO",
+          "category": "Technológiai kivitelezés",
+          "description": "Ipari technológiai gyártási és kivitelezési feladatok.",
+          "images": [
+            "/images/references/pimco-1.jpg",
+            "/images/references/pimco-2.jpg"
+          ]
+        }
+      }
+    },
+    "partners": {
+      "partnersEyebrow": "Partnereink",
+      "partnersTitle": "Szakmai együttműködések",
+      "clientsEyebrow": "Megrendelőink",
+      "clientsTitle": "Hosszú távú bizalom",
+      "partnerPlaceholder": "Partner logó",
+      "partners": [
+        {
+          "name": "BONITAS – ENERGETIKA Kft.",
+          "logo": "/images/partners/bonitas.png"
+        },
+        {
+          "name": "I.P.M.S. Kft.",
+          "logo": "/images/partners/ipms.png"
+        },
+        {
+          "name": "SCEPI Consulting Kft.",
+          "logo": "/images/partners/scepi.png"
+        },
+        {
+          "name": "TRINERGY Energetikai Kft.",
+          "logo": "/images/partners/trinergy.png"
+        }
+      ],
+      "clients": [
+        "MVM Energetika Zrt.",
+        "MVM ESCO Zrt.",
+        "MVM ESCO URBAN Zrt.",
+        "MVM Lumen",
+        "MVM Zöld Generáció Zrt.",
+        "Visser & Smit Hanab b.v.",
+        "SIEMENS Energy A.G.",
+        "EUROASZFALT Zrt.",
+        "Tarnóca Kő Kft.",
+        "MOBILTRANS Zrt.",
+        "TRIUT Építőipari Kft.",
+        "MOL KVV Zrt.",
+        "VOGEL Industries",
+        "YAPI MARKEZI",
+        "PIMCO Masterplast Kft.",
+        "SBTC Salgótarján Kft.",
+        "KV Építő Kft."
+      ]
+    },
+    "contactCta": {
+      "eyebrow": "Együttműködés",
+      "title": "Dolgozzunk együtt a következő projektjén!",
+      "description": "Legyen szó bányászati, energetikai, mérnöki vagy kivitelezési projektről, szakmai csapatunk készen áll a közös munkára.",
+      "button": "Kapcsolatfelvétel"
+    },
+    "companyTitle": "A Társaság Bemutatása",
+    "companyText": "A HEJŐTRADE Kft. több évtizedes szakmai tapasztalattal rendelkezik a bányászati, energetikai, építőipari, technológiai és mérnöki szolgáltatások területén. Társaságunk célja, hogy partnereink számára megbízható, magas szakmai színvonalú és hosszú távon fenntartható megoldásokat biztosítson.",
+    "experienceTitle": "Szakmai tapasztalat",
+    "experienceText": "Munkánkat tapasztalt szakemberek, korszerű technológiák és a megrendelői igényekhez igazodó projektmegoldások jellemzik.",
+    "valuesTitle": "Céljaink és értékeink",
+    "valuesText": "Fontos számunkra a megbízhatóság, a szakmai precizitás, a biztonság és a partnereinkkel kialakított hosszú távú együttműködés."
+  },
+  "mining": {
+    "title": "Bányászat / Geotermia",
+    "description": "Bányászati tervezés, engedélyeztetés, műszaki tanácsadás és geotermikus projektek szakmai támogatása több évtizedes tapasztalattal.",
+    "hero": {
+      "number": "01",
+      "eyebrow": "Bányászat / Geotermia",
+      "title": "Bányászati tervezés és geotermikus szakértelem",
+      "description": "Kő- és kavicsbányák, anyagnyerőhelyek, bányajogi ügyek és geotermikus projektek tervezése, engedélyezése és műszaki támogatása.",
+      "badges": [
+        "Tervezés és engedélyeztetés",
+        "Geológiai szakértelem",
+        "Bányajogi ügyintézés",
+        "Geotermikus projektek"
+      ]
+    },
+    "overview": {
+      "eyebrow": "Szakmai háttér",
+      "titleLine1": "A tervezéstől",
+      "titleLine2": "az engedélyezésig",
+      "lead": "Társaságunk megalakulása óta részt vesz bányászati és anyagnyerőhelyi projektek előkészítésében, tervezésében és engedélyeztetésében.",
+      "paragraph1": "A Miskolci és a Szolnoki Bányakapitányság illetékességi területén kő- és kavicsbányák, valamint anyagnyerőhelyek tervezésében és engedélyeztetésében szereztünk tapasztalatot. Tevékenységünk kiterjed az ásványi vagyon felmérésére és a kapcsolódó adatszolgáltatásokra is.",
+      "paragraph2": "A klasszikus bányászati feladatok mellett geológiai kutatások, geotermikus projektek tervezése és bonyolítása, valamint a szükséges jogi és földhivatali eljárások szakmai támogatása is része szolgáltatásainknak.",
+      "highlight": "Komplex megközelítésünk a mérnöki, geológiai és jogi feladatokat egyaránt lefedi."
+    },
+    "capabilities": {
+      "eyebrow": "Tevékenységeink",
+      "title": "Komplex bányászati és geotermikus szolgáltatások",
+      "description": "A projektelőkészítéstől a hatósági és műszaki feladatokon át a megvalósítás szakmai támogatásáig több területen segítjük partnereinket.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Bányák tervezése és engedélyeztetése",
+          "description": "Kő- és kavicsbányák tervezése, valamint a kapcsolódó engedélyezési folyamatok szakmai támogatása."
+        },
+        {
+          "number": "02",
+          "title": "Anyagnyerőhelyek felkutatása",
+          "description": "Talajkitermelőhelyek és célnyerőhelyek felkutatása, előkészítése és engedélyeztetése."
+        },
+        {
+          "number": "03",
+          "title": "Műszaki üzemi tervek",
+          "description": "Műszaki üzemi tervek készítése, anyagvizsgálatok és a működéshez kapcsolódó szakmai dokumentáció összeállítása."
+        },
+        {
+          "number": "04",
+          "title": "Felelős műszaki vezetés",
+          "description": "Bányászati projektekhez kapcsolódó felelős műszaki vezetői feladatok ellátása."
+        },
+        {
+          "number": "05",
+          "title": "Bányaszolgalmi és földhivatali ügyintézés",
+          "description": "Bányaszolgalmi jogi ügyintézés, területszerzés, kisajátítás és művelési ág változási eljárások támogatása."
+        },
+        {
+          "number": "06",
+          "title": "Nyomvonalas jogok kezelése",
+          "description": "Nyomvonalas bányaszolgalmi jogok teljes körű jogi és földhivatali bonyolítása."
+        },
+        {
+          "number": "07",
+          "title": "Geológiai kutatás és tanulmányok",
+          "description": "Geológiai kutatások, szakmai tanulmányok és kapcsolódó teljesítménynyilatkozatok készítése."
+        },
+        {
+          "number": "08",
+          "title": "Geotermikus projektek",
+          "description": "Geotermikus projektek tervezése és bonyolítása, valamint C.E.E.G. plutonikus geotermikus erőművek tervezéséhez kapcsolódó szakmai feladatok."
+        }
+      ]
+    },
+    "references": {
+      "eyebrow": "Referenciák",
+      "title": "Bányászati és geotermikus tapasztalat a gyakorlatban",
+      "description": "A dokumentációban szereplő válogatott projektek és szakmai feladatok.",
+      "items": [
+        {
+          "title": "Hejőpapi, Alsózsolca és Csorba-tó",
+          "meta": "Kavicsbányák",
+          "description": "Kavicsbányákhoz kapcsolódó tervezési, engedélyezési és szakmai feladatok."
+        },
+        {
+          "title": "Tarnaszentmária, Kisnána és Hercegkút",
+          "meta": "Kőbányák",
+          "description": "Kőbányászati projektekhez kapcsolódó tervezési és szakmai közreműködés, többek között Euroaszfalt Zrt. és Mélyépítő Budapest kapcsolódásával."
+        },
+        {
+          "title": "Hajdúszoboszló I–IV.",
+          "meta": "Anyagbányák",
+          "description": "Anyagbányákhoz kapcsolódó saját projektfeladatok és szakmai közreműködés."
+        },
+        {
+          "title": "Miskolc, Déli Ipari Park – 304. sz. közút",
+          "meta": "Előkészítés",
+          "description": "Tervezési és előkészítési munkák a NIF Zrt. projektjéhez kapcsolódóan."
+        },
+        {
+          "title": "Gádoros – Fábiánsebestyén",
+          "meta": "Geotermia",
+          "description": "Geotermikus erőműhöz kapcsolódó geológiai szaktanácsadás az MVM Energetika Zrt. számára."
+        },
+        {
+          "title": "Papkeszi gázfáklya áthelyezés",
+          "meta": "Ügyintézés",
+          "description": "A gázfáklya áthelyezéséhez kapcsolódó szakmai és hatósági ügyintézés az FGSZ Zrt. projektjében."
+        }
+      ]
+    },
+    "capacity": {
+      "eyebrow": "Rendelkezésre álló kapacitás",
+      "title": "Mérnöki és jogi háttér egy projekten belül",
+      "description": "A dokumentációban megjelölt szakmai kapacitás a bányászati és kapcsolódó hatósági feladatok támogatására.",
+      "items": [
+        {
+          "value": "1 fő",
+          "label": "bányamérnök / geológus"
+        },
+        {
+          "value": "1 fő",
+          "label": "jogász"
+        },
+        {
+          "value": "ISO 9001",
+          "label": "MSZ EN ISO 9001:2015 alapú minőségirányítási rendszer 2023 óta"
+        }
+      ]
+    },
+    "contactCta": {
+      "eyebrow": "Projektindítás",
+      "title": "Bányászati vagy geotermikus projektet készít elő?",
+      "description": "Vegye fel velünk a kapcsolatot, és egyeztessünk a tervezési, engedélyezési, geológiai vagy bányajogi feladatokról.",
+      "button": "Kapcsolatfelvétel"
+    }
+  },
+  "energy": {
+    "title": "Energetika / Villamos kivitelezés",
+    "description": "Villamos-energetikai tervezés és kivitelezés, ipari energiaellátás, alállomások, kábelrendszerek és ESCO-projektek menedzselése.",
+    "hero": {
+      "number": "02",
+      "eyebrow": "Energetika / Villamos kivitelezés",
+      "title": "Ipari energiaellátás a tervezéstől a kivitelezésig",
+      "description": "Alállomások, földkábelek, toksínrendszerek, munkaterületi energiaellátás és energetikai projektmenedzsment ipari környezetben.",
+      "badges": [
+        "Alállomások",
+        "Földkábelek",
+        "Ipari energiaellátás",
+        "ESCO projektmenedzsment"
+      ]
+    },
+    "overview": {
+      "eyebrow": "Villamos energetika",
+      "titleLine1": "Megbízható energia",
+      "titleLine2": "ipari környezetben",
+      "lead": "Energetikai projektjeinkben a tervezési, engedélyezési, kivitelezési és koordinációs feladatok egymásra épülnek.",
+      "paragraph1": "Társaságunk alállomások telepítését és engedélyeztetését, földkábelek fektetését és szerelését, toksínrendszerek kiépítését, valamint iparterületek energiaellátásához kapcsolódó kivitelezési feladatokat vállalt.",
+      "paragraph2": "A műszaki kivitelezés mellett ipari fogyasztók energetikai megoldásainak kidolgozásában, hálózati csatlakozások tervezésében és engedélyeztetésében, valamint ESCO-finanszírozású projektek menedzselésében is részt vettünk.",
+      "highlight": "2022 óta MVM-vállalatok szerződött partnereként energetikai ellátási és ESCO-fejlesztési projektekben is közreműködtünk."
+    },
+    "capabilities": {
+      "eyebrow": "Szolgáltatások",
+      "title": "Villamos-energetikai kompetenciák",
+      "description": "Ipari létesítmények villamos energiaellátásához kapcsolódó kivitelezési és projektmenedzsment feladatok.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Alállomások telepítése",
+          "description": "Transzformátor- és egyéb alállomások telepítése, valamint a kapcsolódó engedélyezési feladatok támogatása."
+        },
+        {
+          "number": "02",
+          "title": "Földkábelek",
+          "description": "Földkábelek fektetése, szerelése, kötése és a kapcsolódó helyszíni kivitelezési munkák."
+        },
+        {
+          "number": "03",
+          "title": "Toksínrendszerek",
+          "description": "Ipari nagyáramú toksínrendszerek kiépítése és technológiai szerelése."
+        },
+        {
+          "number": "04",
+          "title": "Iparterületek energiaellátása",
+          "description": "Munkaterületek és ipari létesítmények energiaellátási rendszerének kivitelezése és támogatása."
+        },
+        {
+          "number": "05",
+          "title": "Okosmérés és optimalizálás",
+          "description": "Okosmérők telepítése és az energiafelhasználás optimalizálását támogató műszaki megoldások."
+        },
+        {
+          "number": "06",
+          "title": "Hálózati csatlakozások",
+          "description": "Hálózati csatlakozások tervezése, engedélyeztetése és projektoldali koordinációja."
+        },
+        {
+          "number": "07",
+          "title": "ESCO projektmenedzsment",
+          "description": "Ipari fogyasztók számára készülő energetikai fejlesztések és ESCO-finanszírozású projektek menedzselése."
+        }
+      ]
+    },
+    "references": {
+      "eyebrow": "Referenciák",
+      "title": "Kiemelt energetikai projektek",
+      "description": "A dokumentációban szereplő villamos-energetikai kivitelezési és projektmenedzsment munkák.",
+      "items": [
+        {
+          "title": "BMW Debrecen – alállomások és vezetéképítés",
+          "meta": "2022",
+          "description": "Alállomások telepítéséhez és vezetéképítéshez kapcsolódó feladatok a YAPI MARKEZI projektjében."
+        },
+        {
+          "title": "BMW Debrecen – munkaterület energiaellátása",
+          "meta": "2022",
+          "description": "A munkaterület áramellátásához kapcsolódó kivitelezési feladatok BMW–CÉH Zrt. együttműködésben."
+        },
+        {
+          "title": "MVM Budapest – 1600 kVA transzformátor alállomás",
+          "meta": "2023",
+          "description": "1600 kVA teljesítményű transzformátor alállomáshoz kapcsolódó villamos-energetikai projektfeladatok."
+        },
+        {
+          "title": "BMW Debrecen – Siemens toksínrendszer",
+          "meta": "2023–2024",
+          "description": "A TEM üzemben 4500 A Siemens toksínrendszer kiépítéséhez kapcsolódó kivitelezési feladatok SIEMENS–BONITAS együttműködésben."
+        },
+        {
+          "title": "MVM ESCO projektek",
+          "meta": "ESCO",
+          "description": "Ipari fogyasztói energetikai fejlesztések és ESCO-finanszírozású projektek koordinációja MVM ESCO és MVM ESCO URBAN partneri környezetben."
+        }
+      ]
+    },
+    "capacity": {
+      "eyebrow": "Rendelkezésre álló kapacitás",
+      "title": "Villamos szakmai csapat ipari projektekhez",
+      "description": "A dokumentációban megadott villamos-energetikai szakmai kapacitás.",
+      "items": [
+        {
+          "value": "1 fő",
+          "label": "erősáramú villamosmérnök"
+        },
+        {
+          "value": "1 fő",
+          "label": "KÖF engedélyes projektvezető"
+        },
+        {
+          "value": "6 fő",
+          "label": "villanyszerelő"
+        }
+      ]
+    },
+    "contactCta": {
+      "eyebrow": "Energetikai együttműködés",
+      "title": "Villamos-energetikai projektet tervez?",
+      "description": "Egyeztessünk alállomásról, ipari energiaellátásról, kábel- vagy toksínrendszerről, illetve ESCO-fejlesztésről.",
+      "button": "Kapcsolatfelvétel"
+    }
+  },
+  "technology": {
+    "title": "Technológiai kivitelezés",
+    "description": "Acélszerkezeti és technológiai előgyártás, helyszíni kivitelezés, hegesztési és csőszerelési feladatok ipari projektekhez.",
+    "hero": {
+      "number": "03",
+      "eyebrow": "Technológiai kivitelezés",
+      "title": "Acélszerkezetek és ipari technológia precíz kivitelezése",
+      "description": "Gyártási, előgyártási, hegesztési és csőszerelési kompetenciák egyedi ipari és acélszerkezeti feladatok megvalósításához.",
+      "badges": [
+        "Acélszerkezet gyártás",
+        "Technológiai előgyártás",
+        "AWI hegesztés",
+        "Izometriás csőszerelés"
+      ]
+    },
+    "overview": {
+      "eyebrow": "Gyártás és kivitelezés",
+      "titleLine1": "Műhelytől",
+      "titleLine2": "a helyszíni szerelésig",
+      "lead": "A társaság tevékenysége az évek során acélszerkezeti és gépészeti gyártási, illetve technológiai előgyártási feladatokkal bővült.",
+      "paragraph1": "Technológiai kivitelezési munkáink az acélszerkezetek gyártásától és előkészítésétől a helyszíni szerelésen, AWI hegesztésen és izometriás csőszerelésen át a komplex ipari megvalósításig terjednek.",
+      "paragraph2": "A dokumentált projektek között ipari gyártási és technológiai munkák, valamint saját fejlesztésű acélszerkezeti megoldás is szerepel, így a gyártási és kivitelezési szemlélet egyaránt része szakmai hátterünknek.",
+      "highlight": "A Salgótarjáni Tóstrand Városi Stadion acélszerkezetű lelátójának első üteme saját fejlesztéshez kapcsolódó gyártási és generálkivitelezési referencia."
+    },
+    "capabilities": {
+      "eyebrow": "Kompetenciák",
+      "title": "Technológiai kivitelezés több szakág összehangolásával",
+      "description": "A gyártási és helyszíni feladatokat a projekt igényeihez igazodó szakmai kapacitással támogatjuk.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Acélszerkezet gyártás",
+          "description": "Egyedi acélszerkezeti elemek gyártása és a kivitelezéshez szükséges előkészítése."
+        },
+        {
+          "number": "02",
+          "title": "Technológiai előgyártás",
+          "description": "Ipari technológiai elemek és szerelési egységek műhelyi előkészítése a helyszíni munkák gyorsítására."
+        },
+        {
+          "number": "03",
+          "title": "Helyszíni szerelés",
+          "description": "Acél- és technológiai szerkezetek helyszíni összeállítása, szerelése és kivitelezése."
+        },
+        {
+          "number": "04",
+          "title": "AWI hegesztés",
+          "description": "AWI hegesztési feladatok ipari és technológiai projektekhez."
+        },
+        {
+          "number": "05",
+          "title": "Izometriás csőszerelés",
+          "description": "Izometrikus tervek alapján végzett csőszerelési és kapcsolódó technológiai kivitelezési feladatok."
+        },
+        {
+          "number": "06",
+          "title": "Projektvezetés",
+          "description": "A gyártási és kivitelezési munkafázisok szakmai koordinációja és projektoldali összehangolása."
+        }
+      ]
+    },
+    "references": {
+      "eyebrow": "Referenciák",
+      "title": "Technológiai és acélszerkezeti projektek",
+      "description": "A dokumentációban megjelölt válogatott technológiai és gyártási referenciák.",
+      "items": [
+        {
+          "title": "Salgótarján Tóstrand Városi Stadion",
+          "meta": "Acélszerkezet",
+          "description": "A 400 fős acélszerkezetű lelátó első ütemének gyártása és generálkivitelezése."
+        },
+        {
+          "title": "PIMCO Szerencs",
+          "meta": "Technológia",
+          "description": "Ipari technológiai gyártási és kivitelezési feladatok."
+        },
+        {
+          "title": "AGRO-Selye",
+          "meta": "Ipari kivitelezés",
+          "description": "A dokumentációban technológiai előgyártási és kivitelezési referenciaként szereplő projekt."
+        },
+        {
+          "title": "ILTARIAN Plastic Kft.",
+          "meta": "Ipari technológia",
+          "description": "A dokumentációban technológiai kivitelezési referenciaként megjelölt ipari projekt."
+        }
+      ]
+    },
+    "capacity": {
+      "eyebrow": "Rendelkezésre álló kapacitás",
+      "title": "Szakemberek a gyártástól a szerelésig",
+      "description": "A dokumentációban megadott technológiai kivitelezési kapacitás.",
+      "items": [
+        {
+          "value": "1 fő",
+          "label": "projektvezető"
+        },
+        {
+          "value": "3 fő",
+          "label": "AWI hegesztő"
+        },
+        {
+          "value": "3 fő",
+          "label": "izometriás csőszerelő"
+        }
+      ]
+    },
+    "contactCta": {
+      "eyebrow": "Technológiai projekt",
+      "title": "Gyártási vagy helyszíni kivitelezési feladat előtt áll?",
+      "description": "Vegye fel velünk a kapcsolatot acélszerkezeti, hegesztési, csőszerelési vagy komplex technológiai kivitelezési igényével.",
+      "button": "Kapcsolatfelvétel"
+    }
+  },
+  "generalContracting": {
+    "title": "Fővállalkozás",
+    "description": "Komplex építőipari és ipari beruházások koordinációja, szervezése és kivitelezési feladatainak összehangolása.",
+    "hero": {
+      "number": "04",
+      "eyebrow": "Fővállalkozás",
+      "title": "Komplex beruházások összehangolt megvalósítása",
+      "description": "Projektelőkészítés, szakági koordináció és kivitelezési feladatok egységes fővállalkozói szemléletben.",
+      "badges": [
+        "Projektkoordináció",
+        "Ipari beruházások",
+        "Infrastruktúra",
+        "Komplex kivitelezés"
+      ]
+    },
+    "overview": {
+      "eyebrow": "Fővállalkozói szemlélet",
+      "titleLine1": "Egy projekt,",
+      "titleLine2": "összehangolt felelősség",
+      "lead": "A HEJŐTRADE tevékenysége az évtizedek során építőipari generálkivitelezési feladatokkal is bővült.",
+      "paragraph1": "Fővállalkozói szerepben a műszaki előkészítés, a szakági feladatok összehangolása, a kivitelezési folyamatok szervezése és a projekt megvalósításának koordinációja alkot egységes rendszert.",
+      "paragraph2": "Korábbi projektjeink között tartályparkhoz kapcsolódó alapozási és vezetéképítési munkák, vízügyi műtárgyak, valamint jelentős út- és infrastruktúra-beruházásokhoz kapcsolódó kivitelezési és előkészítési feladatok is szerepelnek.",
+      "highlight": "Célunk, hogy a különböző szakági feladatok egyértelmű felelősségi és koordinációs rendszerben kapcsolódjanak egymáshoz."
+    },
+    "capabilities": {
+      "eyebrow": "Fővállalkozói feladatok",
+      "title": "Komplex megvalósítás egy kézből",
+      "description": "A fővállalkozói feladatokat a projekt műszaki tartalmához igazodó szervezési és szakági koordinációval támogatjuk.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Projektelőkészítés",
+          "description": "A kivitelezéshez szükséges műszaki és szervezési előkészítés, feladatstruktúra és megvalósítási keretek kialakítása."
+        },
+        {
+          "number": "02",
+          "title": "Szakági koordináció",
+          "description": "Építőipari, gépészeti, villamos és technológiai feladatok összehangolása a projekt teljes folyamatában."
+        },
+        {
+          "number": "03",
+          "title": "Ipari kivitelezés",
+          "description": "Ipari létesítményekhez kapcsolódó építési, alapozási, vezetéképítési és kapcsolódó kivitelezési feladatok."
+        },
+        {
+          "number": "04",
+          "title": "Infrastrukturális munkák",
+          "description": "Út-, vízügyi és egyéb infrastruktúra-projektekhez kapcsolódó kivitelezési és előkészítési feladatok."
+        },
+        {
+          "number": "05",
+          "title": "Műtárgyak és szerkezetek",
+          "description": "Projektfüggő műtárgy- és szerkezetépítési munkák szakmai és kivitelezési koordinációja."
+        },
+        {
+          "number": "06",
+          "title": "Projektirányítás",
+          "description": "A résztvevők, munkafázisok és kivitelezési feladatok egységes projektoldali összehangolása."
+        }
+      ]
+    },
+    "references": {
+      "eyebrow": "Referenciák",
+      "title": "Fővállalkozói és infrastrukturális tapasztalat",
+      "description": "A dokumentációban megjelölt válogatott generálkivitelezési és infrastruktúra-projektek.",
+      "items": [
+        {
+          "title": "Vámosgyörk – OPÁL Tartálypark",
+          "meta": "Ipari kivitelezés",
+          "description": "Tartályalapozási és vezetéképítési munkák az OPÁL Tartálypark megvalósításához kapcsolódóan."
+        },
+        {
+          "title": "Hany–Tiszasüly Árapasztó tározó",
+          "meta": "Műtárgyépítés",
+          "description": "Tubosider hidak kivitelezéséhez kapcsolódó generálkivitelezési feladatok."
+        },
+        {
+          "title": "M3 és M30 autópálya",
+          "meta": "Infrastruktúra",
+          "description": "Területelőkészítési és kivitelezési munkák Északkelet-Magyarország jelentős közúti beruházásain."
+        },
+        {
+          "title": "4. sz. főút – Hajdúszoboszló elkerülő",
+          "meta": "Útépítés",
+          "description": "A hajdúszoboszlói elkerülő szakasz kivitelezéséhez kapcsolódó projektfeladatok."
+        }
+      ]
+    },
+    "capacity": {
+      "eyebrow": "Projektmegvalósítás",
+      "title": "Több szakmai terület összehangolására építünk",
+      "description": "Fővállalkozói projektjeinkben a társaság bányászati, energetikai, építőipari és technológiai kompetenciái egymást kiegészítve használhatók.",
+      "items": [
+        {
+          "value": "01",
+          "label": "műszaki és szervezési projektelőkészítés"
+        },
+        {
+          "value": "02",
+          "label": "szakági és alvállalkozói koordináció"
+        },
+        {
+          "value": "03",
+          "label": "kivitelezési folyamatok egységes projektirányítása"
+        }
+      ]
+    },
+    "contactCta": {
+      "eyebrow": "Fővállalkozói együttműködés",
+      "title": "Komplex beruházást készít elő?",
+      "description": "Mutassa be projektjét, és egyeztessünk a műszaki tartalomról, a szakági feladatokról és a megvalósítás lehetséges kereteiről.",
+      "button": "Kapcsolatfelvétel"
+    }
+  },
+  "contact": {
+    "title": "Elérhetőségeink",
+    "description": "Vegye fel velünk a kapcsolatot.",
+    "hero": {
+      "eyebrow": "Kapcsolat",
+      "title": "Dolgozzunk együtt",
+      "description": "Amennyiben szolgáltatásainkkal, projektjeinkkel vagy egy lehetséges együttműködéssel kapcsolatban érdeklődik, vegye fel velünk a kapcsolatot. Szakembereink készséggel állnak rendelkezésére."
+    },
+    "info": {
+      "eyebrow": "Kapcsolatfelvétel",
+      "title": "Elérhetőségeink",
+      "description": "Társaságunk budapesti központtal és miskolci irodával, illetve telephellyel áll partnerei rendelkezésére.",
+      "phoneLabel": "Telefon",
+      "emailLabel": "E-mail",
+      "websiteLabel": "Weboldal",
+      "phone": "+36 46 555 000",
+      "email": "info@hejotrade.hu"
+    },
+    "locations": {
+      "eyebrow": "Irodáink és telephelyünk",
+      "title": "Elérhetőségeink helyszínei",
+      "description": "A HEJŐTRADE Kft. központi adminisztrációja Budapesten található, miközben miskolci irodánk és telephelyünk továbbra is fontos szerepet tölt be a társaság működésében.",
+      "mapLabel": "Térkép helye",
+      "items": [
+        {
+          "title": "Budapesti székhely",
+          "address": "1135 Budapest, Fáy u. 93.",
+          "description": "Társaságunk székhelye és központi adminisztrációja Budapesten található.",
+          "mapEmbedUrl": "https://www.google.com/maps?q=1135+Budapest,+F%C3%A1y+u.+93.&output=embed"
+        },
+        {
+          "title": "Budapesti iroda",
+          "address": "1144 Budapest, Füredi u. 74-76.",
+          "description": "Budapesti irodánk a társaság működéséhez kapcsolódó szakmai és adminisztratív feladatokat látja el.",
+          "mapEmbedUrl": "https://www.google.com/maps?q=1144+Budapest,+F%C3%BCredi+u.+74-76.&output=embed"
+        },
+        {
+          "title": "Miskolci iroda és telephely",
+          "address": "3519 Miskolc, Kócsag u. 12.",
+          "description": "Miskolci irodánk és telephelyünk a társaság szakmai és kivitelezési tevékenységének egyik fontos bázisa.",
+          "mapEmbedUrl": "https://www.google.com/maps?q=3519+Miskolc,+K%C3%B3csag+u.+12.&output=embed"
+        }
+      ]
+    },
+    "form": {
+      "eyebrow": "Üzenet küldése",
+      "title": "Kérdése van?",
+      "description": "Írja meg részünkre megkeresését, és munkatársaink felveszik Önnel a kapcsolatot.",
+      "name": "Név",
+      "email": "E-mail cím",
+      "phone": "Telefonszám",
+      "message": "Üzenet",
+      "namePlaceholder": "Adja meg a nevét",
+      "emailPlaceholder": "Adja meg az e-mail címét",
+      "phonePlaceholder": "Adja meg a telefonszámát",
+      "messagePlaceholder": "Írja ide üzenetét...",
+      "send": "Üzenet küldése",
+      "sending": "Küldés...",
+      "success": "Köszönjük megkeresését! Hamarosan felvesszük Önnel a kapcsolatot."
+    },
+    "companyData": {
+      "eyebrow": "Hivatalos adatok",
+      "title": "Cégadatok",
+      "companyName": "Cégnév",
+      "companyType": "HEJŐTRADE Bányászati, Energetikai, Mérnöki és Szolgáltató Kft.",
+      "registrationLabel": "Cégjegyzékszám",
+      "registrationNumber": "01-09-338908",
+      "taxLabel": "Adószám",
+      "taxNumber": "11580063-2-41",
+      "bankLabel": "Bankszámlaszám",
+      "bankAccount": "UniCredit Bank 10918001-00000116-02220002"
+    }
+  },
+  "footer": {
+    "companyDescription": "1997 óta magyar tulajdonú vállalkozásként veszünk részt bányászati, energetikai, építőipari és technológiai projektek megvalósításában.",
+    "since": "1997 óta",
+    "navigationTitle": "Navigáció",
+    "contactTitle": "Elérhetőségeink",
+    "headOffice": "Székhely",
+    "budapestOffice": "Budapesti iroda",
+    "miskolcOffice": "Miskolci iroda és telephely",
+    "companyRegistration": "Cégjegyzékszám:",
+    "taxNumber": "Adószám:",
+    "privacy": "Adatkezelési tájékoztató",
+    "legalNotice": "Impresszum",
+    "rights": "Minden jog fenntartva."
+  }
+}
