@@ -1,18 +1,23 @@
 services:
   hejotrade:
     build:
-      context: ./hejotrade
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: hejotrade/Dockerfile
 
     container_name: hejotrade-web
 
     restart: unless-stopped
 
+    ports:
+      - "3000:3000"
+
     environment:
-      NODE_ENV: production
+      NODE_ENV: Production
       NEXT_TELEMETRY_DISABLED: "1"
       HOSTNAME: "0.0.0.0"
       PORT: "3000"
 
-    ports:
-      - "3000:3000"
+networks:
+  default:
+    external: true
+    name: app-network
