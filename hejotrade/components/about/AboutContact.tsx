@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 type Props = {
-  href: string;
+  href?: string;
   t: {
     eyebrow: string;
     title: string;
@@ -10,7 +10,7 @@ type Props = {
   };
 };
 
-export default function AboutContact({ href, t }: Props) {
+export default function AboutContact({ href = "#contact", t }: Props) {
   return (
     <section className="border-t border-white/10 bg-[#123F45]">
       <div className="mx-auto max-w-[1400px] px-6 py-12 lg:px-10 lg:py-14">
