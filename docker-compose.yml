@@ -1,7 +1,7 @@
 services:
   hejotrade:
     build:
-      context: .
+      context: https://github.com/Mogyi6/HEJOTRADE.git#main
       dockerfile: hejotrade/Dockerfile
 
     container_name: hejotrade-web
@@ -12,12 +12,7 @@ services:
       - "3000:3000"
 
     environment:
-      NODE_ENV: Production
+      NODE_ENV: production
       NEXT_TELEMETRY_DISABLED: "1"
       HOSTNAME: "0.0.0.0"
       PORT: "3000"
-
-networks:
-  default:
-    external: true
-    name: app-network
