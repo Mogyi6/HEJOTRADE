@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // A Docker production image csak a futtatáshoz szükséges fájlokat kapja meg.
+  output: "standalone",
 };
 
 export default nextConfig;
