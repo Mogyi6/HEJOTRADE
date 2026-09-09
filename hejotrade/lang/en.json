@@ -1,0 +1,832 @@
+{
+  "company": {
+    "name": "HEJŐTRADE",
+    "subtitle": "Mining, Construction, Commercial, Consulting and Service Ltd."
+  },
+  "nav": {
+    "mainNavigation": "Main navigation",
+    "mobileNavigation": "Mobile navigation",
+    "logoAlt": "HEJŐTRADE logo",
+    "logoAria": "HEJŐTRADE home page",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "items": {
+      "about": "About Us",
+      "mining": "Mining / Geothermal",
+      "energy": "Energy / Electrical Construction",
+      "technology": "Technological Construction",
+      "generalContracting": "General Contracting",
+      "contact": "Contact"
+    }
+  },
+  "serviceCommon": {
+    "home": "About Us",
+    "pageType": "Service area",
+    "sections": {
+      "overview": "Overview",
+      "capabilities": "Services",
+      "references": "References",
+      "capacity": "Capacity"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "HEJŐTRADE Kft. was established in Miskolc in 1997 with the aim of providing mining and energy-related services to its clients.",
+    "hero": {
+      "eyebrow": "HEJŐTRADE",
+      "title": "More than 25 years of engineering and industrial experience",
+      "description": "Mining, energy, engineering and construction solutions from an experienced Hungarian-owned company.",
+      "since": "Since 1997",
+      "ownership": "Hungarian-owned",
+      "engineering": "Engineering expertise",
+      "imagePlaceholder": "Hero image",
+      "imageSize": "1600 × 1000 px"
+    },
+    "introduction": {
+      "eyebrow": "About the Company",
+      "titleLine1": "Experience,",
+      "titleLine2": "engineering expertise,",
+      "titleLine3": "reliability.",
+      "lead": "HEJŐTRADE Kft. is a Hungarian-owned company established in 1997, which has continuously expanded its professional competencies over the decades.",
+      "paragraph1": "HEJŐTRADE Kft. was established in Miskolc in 1997 with the aim of providing mining and energy-related services to its clients.",
+      "paragraph2": "The company's founder, Árpád Bánhegyi, a Golden Degree civil engineer and former CEO of the Borsod County State Construction Company, established a professional foundation based on engineering expertise and practical experience.",
+      "paragraph3": "Over the decades, our range of activities has expanded significantly, from mining design and engineering consulting through energy projects and general contracting to steel structure manufacturing and technological prefabrication.",
+      "quote": "Reliable performance and long-term professional partnerships are among the most important foundations of our operation."
+    },
+    "history": {
+      "eyebrow": "Our History",
+      "title": "More than two decades of experience",
+      "description": "Continuous development, new areas of expertise and long-term partnerships have shaped HEJŐTRADE over the years.",
+      "milestones": {
+        "1997": {
+          "year": "1997",
+          "title": "HEJŐTRADE is established",
+          "description": "The company was founded in Miskolc to provide mining and energy-related services."
+        },
+        "2000": {
+          "year": "2000+",
+          "title": "Infrastructure investments",
+          "description": "Participation in significant road, infrastructure and industrial investments in Northeastern Hungary."
+        },
+        "2010": {
+          "year": "2010+",
+          "title": "Expansion of professional activities",
+          "description": "General contracting, geothermal projects, energy consulting and engineering services gradually became part of the company's activities."
+        },
+        "2022": {
+          "year": "2022",
+          "title": "Budapest headquarters",
+          "description": "The registered office and central administration were relocated to Budapest, while the Miskolc office and site remained operational."
+        },
+        "2022_2025": {
+          "year": "2022–2025",
+          "title": "Energy projects",
+          "description": "Participation in industrial energy supply projects and ESCO-financed developments as a contracted partner of MVM companies."
+        },
+        "2023": {
+          "year": "2023",
+          "title": "Quality management",
+          "description": "An ISO 9001:2015-based quality management system was introduced and has been operating since 2023."
+        }
+      }
+    },
+    "activities": {
+      "eyebrow": "Our Expertise",
+      "titleLine1": "Complex solutions",
+      "titleLine2": "from one partner",
+      "description": "Our professional competencies complement each other, enabling us to deliver complex industrial, energy and construction projects.",
+      "items": {
+        "mining": {
+          "number": "01",
+          "title": "Mining Engineering",
+          "description": "Design, permitting and professional support for mining and raw material extraction projects.",
+          "services": [
+            "Technical operating plans",
+            "Geological studies",
+            "Material testing",
+            "Mining rights administration"
+          ]
+        },
+        "energy": {
+          "number": "02",
+          "title": "Electrical Energy",
+          "description": "Design, permitting and construction of industrial energy supply systems.",
+          "services": [
+            "Substations",
+            "Underground cables",
+            "Busbar systems",
+            "Industrial power supply"
+          ]
+        },
+        "esco": {
+          "number": "03",
+          "title": "ESCO Projects",
+          "description": "Management of energy development projects and ESCO-financed solutions for industrial consumers.",
+          "services": [
+            "Energy solutions",
+            "Grid connections",
+            "Permitting",
+            "Project management"
+          ]
+        },
+        "generalContracting": {
+          "number": "04",
+          "title": "General Contracting",
+          "description": "Comprehensive coordination and implementation of complex construction and industrial investments.",
+          "services": [
+            "Industrial investments",
+            "Infrastructure",
+            "Tank farms",
+            "Structures"
+          ]
+        },
+        "steel": {
+          "number": "05",
+          "title": "Steel Structures",
+          "description": "Steel structure manufacturing, technological prefabrication and on-site construction.",
+          "services": [
+            "Steel structure manufacturing",
+            "TIG welding",
+            "Pipe fitting",
+            "Metalworking"
+          ]
+        },
+        "engineering": {
+          "number": "06",
+          "title": "Engineering Consulting",
+          "description": "Experienced engineering support for complex industrial and energy projects.",
+          "services": [
+            "Technical consulting",
+            "Engineering design",
+            "Project management",
+            "Technical supervision"
+          ]
+        }
+      }
+    },
+    "references": {
+      "eyebrow": "References",
+      "title": "Projects we are proud of",
+      "imagePlaceholder": "Reference image",
+      "items": {
+        "bmw": {
+          "title": "BMW Debrecen",
+          "category": "Electrical Energy",
+          "description": "Installation of substations, power line construction, temporary site power supply and Siemens busbar system construction.",
+          "images": [
+            "/images/references/bmw-1.jpg",
+            "/images/references/bmw-2.jpg",
+            "/images/references/bmw-3.jpg"
+          ]
+        },
+        "salgotarjan": {
+          "title": "Salgótarján Tóstrand",
+          "category": "Steel Structure Construction",
+          "description": "Manufacturing and general contracting of the first phase of the steel spectator stand at the city stadium.",
+          "images": [
+            "/images/references/salgotarjan-1.jpg",
+            "/images/references/salgotarjan-2.jpg"
+          ]
+        },
+        "pimco": {
+          "title": "PIMCO",
+          "category": "Technological Construction",
+          "description": "Industrial technological manufacturing and construction works.",
+          "images": [
+            "/images/references/pimco-1.jpg",
+            "/images/references/pimco-2.jpg"
+          ]
+        }
+      }
+    },
+    "partners": {
+      "partnersEyebrow": "Our Partners",
+      "partnersTitle": "Professional partnerships",
+      "clientsEyebrow": "Our Clients",
+      "clientsTitle": "Long-term trust",
+      "partnerPlaceholder": "Partner logo",
+      "partners": [
+        {
+          "name": "BONITAS – ENERGETIKA Kft.",
+          "logo": "/images/partners/bonitas.png"
+        },
+        {
+          "name": "I.P.M.S. Kft.",
+          "logo": "/images/partners/ipms.png"
+        },
+        {
+          "name": "SCEPI Consulting Kft.",
+          "logo": "/images/partners/scepi.png"
+        },
+        {
+          "name": "TRINERGY Energetikai Kft.",
+          "logo": "/images/partners/trinergy.png"
+        }
+      ],
+      "clients": [
+        "MVM Energetika Zrt.",
+        "MVM ESCO Zrt.",
+        "MVM ESCO URBAN Zrt.",
+        "MVM Lumen",
+        "MVM Zöld Generáció Zrt.",
+        "Visser & Smit Hanab b.v.",
+        "SIEMENS Energy A.G.",
+        "EUROASZFALT Zrt.",
+        "Tarnóca Kő Kft.",
+        "MOBILTRANS Zrt.",
+        "TRIUT Építőipari Kft.",
+        "MOL KVV Zrt.",
+        "VOGEL Industries",
+        "YAPI MARKEZI",
+        "PIMCO Masterplast Kft.",
+        "SBTC Salgótarján Kft.",
+        "KV Építő Kft."
+      ]
+    },
+    "contactCta": {
+      "eyebrow": "Cooperation",
+      "title": "Let's work together on your next project!",
+      "description": "Whether it is a mining, energy, engineering or construction project, our professional team is ready to work with you.",
+      "button": "Get in touch"
+    },
+    "companyTitle": "About the Company",
+    "companyText": "HEJŐTRADE Kft. has several decades of professional experience in mining, energy, construction, technological and engineering services. Our aim is to provide reliable, high-quality and sustainable solutions for our partners.",
+    "experienceTitle": "Professional Experience",
+    "experienceText": "Our work is characterized by experienced professionals, modern technologies and project solutions tailored to the needs of our clients.",
+    "valuesTitle": "Our Goals and Values",
+    "valuesText": "Reliability, professional precision, safety and long-term cooperation with our partners are among our most important values."
+  },
+  "mining": {
+    "title": "Mining / Geothermal",
+    "description": "Mining design, permitting, technical consultancy and professional support for geothermal projects backed by decades of experience.",
+    "hero": {
+      "number": "01",
+      "eyebrow": "Mining / Geothermal",
+      "title": "Mining design and geothermal expertise",
+      "description": "Design, permitting and technical support for stone and gravel mines, extraction sites, mining-right matters and geothermal projects.",
+      "badges": [
+        "Design and permitting",
+        "Geological expertise",
+        "Mining-right administration",
+        "Geothermal projects"
+      ]
+    },
+    "overview": {
+      "eyebrow": "Professional background",
+      "titleLine1": "From design",
+      "titleLine2": "to permitting",
+      "lead": "Since its establishment, our company has participated in the preparation, design and permitting of mining and extraction-site projects.",
+      "paragraph1": "Within the areas formerly administered by the Miskolc and Szolnok mining authorities, we have gained experience in the design and permitting of stone and gravel mines and material extraction sites. Our activities also include mineral resource assessment and related data services.",
+      "paragraph2": "In addition to conventional mining assignments, our services cover geological research, geothermal project planning and coordination, as well as professional support for the necessary legal and land-registry procedures.",
+      "highlight": "Our integrated approach combines engineering, geological and legal expertise within the same project framework."
+    },
+    "capabilities": {
+      "eyebrow": "Our activities",
+      "title": "Comprehensive mining and geothermal services",
+      "description": "We support our partners from project preparation through permitting and technical tasks to professional assistance during implementation.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Mine design and permitting",
+          "description": "Design of stone and gravel mines and professional support for the related permitting procedures."
+        },
+        {
+          "number": "02",
+          "title": "Extraction-site development",
+          "description": "Identification, preparation and permitting of soil extraction and dedicated material-source sites."
+        },
+        {
+          "number": "03",
+          "title": "Technical operating plans",
+          "description": "Preparation of technical operating plans, material tests and professional documentation required for operation."
+        },
+        {
+          "number": "04",
+          "title": "Responsible technical management",
+          "description": "Responsible technical management services related to mining projects."
+        },
+        {
+          "number": "05",
+          "title": "Mining easement and land administration",
+          "description": "Mining easement administration, land acquisition, expropriation and land-use classification procedures."
+        },
+        {
+          "number": "06",
+          "title": "Linear easement procedures",
+          "description": "Comprehensive legal and land-registry administration of linear mining easement rights."
+        },
+        {
+          "number": "07",
+          "title": "Geological research and studies",
+          "description": "Geological research, professional studies and related declarations of performance."
+        },
+        {
+          "number": "08",
+          "title": "Geothermal projects",
+          "description": "Planning and coordination of geothermal projects, including professional tasks related to C.E.E.G. plutonic geothermal power plant concepts."
+        }
+      ]
+    },
+    "references": {
+      "eyebrow": "References",
+      "title": "Mining and geothermal experience in practice",
+      "description": "Selected projects and professional assignments listed in the company documentation.",
+      "items": [
+        {
+          "title": "Hejőpapi, Alsózsolca and Csorba Lake",
+          "meta": "Gravel mines",
+          "description": "Design, permitting and professional assignments related to gravel mining projects."
+        },
+        {
+          "title": "Tarnaszentmária, Kisnána and Hercegkút",
+          "meta": "Stone quarries",
+          "description": "Design and professional involvement in stone-quarry projects, including assignments connected to Euroaszfalt Zrt. and Mélyépítő Budapest."
+        },
+        {
+          "title": "Hajdúszoboszló I–IV",
+          "meta": "Material pits",
+          "description": "Company-owned project assignments and professional involvement related to material extraction sites."
+        },
+        {
+          "title": "Miskolc Southern Industrial Park – Road 304",
+          "meta": "Preparation",
+          "description": "Design and preparatory works connected to a project for NIF Zrt."
+        },
+        {
+          "title": "Gádoros – Fábiánsebestyén",
+          "meta": "Geothermal",
+          "description": "Geological consultancy for a geothermal power plant project for MVM Energetika Zrt."
+        },
+        {
+          "title": "Papkeszi gas flare relocation",
+          "meta": "Administration",
+          "description": "Professional and authority-related administration for the relocation of a gas flare in an FGSZ Zrt. project."
+        }
+      ]
+    },
+    "capacity": {
+      "eyebrow": "Available capacity",
+      "title": "Engineering and legal expertise within one project",
+      "description": "Professional capacity specified in the company documentation for mining and related authority procedures.",
+      "items": [
+        {
+          "value": "1",
+          "label": "mining engineer / geologist"
+        },
+        {
+          "value": "1",
+          "label": "lawyer"
+        },
+        {
+          "value": "ISO 9001",
+          "label": "MSZ EN ISO 9001:2015-based quality management system in operation since 2023"
+        }
+      ]
+    },
+    "contactCta": {
+      "eyebrow": "Project start",
+      "title": "Preparing a mining or geothermal project?",
+      "description": "Contact us to discuss design, permitting, geological or mining-right requirements for your project.",
+      "button": "Contact us"
+    }
+  },
+  "energy": {
+    "title": "Energy / Electrical Construction",
+    "description": "Electrical-energy design and construction, industrial power supply, substations, cable systems and management of ESCO projects.",
+    "hero": {
+      "number": "02",
+      "eyebrow": "Energy / Electrical Construction",
+      "title": "Industrial power supply from design to implementation",
+      "description": "Substations, underground cables, busbar systems, temporary and industrial power supply, and energy project management for industrial environments.",
+      "badges": [
+        "Substations",
+        "Underground cables",
+        "Industrial power supply",
+        "ESCO project management"
+      ]
+    },
+    "overview": {
+      "eyebrow": "Electrical energy",
+      "titleLine1": "Reliable power",
+      "titleLine2": "for industrial environments",
+      "lead": "In our energy projects, design, permitting, construction and coordination tasks are handled as connected project phases.",
+      "paragraph1": "Our company has undertaken the installation and permitting of substations, laying and termination of underground cables, construction of busbar systems and implementation of power supply solutions for industrial sites.",
+      "paragraph2": "Alongside technical implementation, we have also participated in developing energy solutions for industrial consumers, planning and permitting grid connections, and managing ESCO-financed projects.",
+      "highlight": "Since 2022, we have participated in industrial energy-supply and ESCO development projects as a contracted partner of MVM companies."
+    },
+    "capabilities": {
+      "eyebrow": "Services",
+      "title": "Electrical-energy capabilities",
+      "description": "Construction and project-management tasks related to the electrical power supply of industrial facilities.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Substation installation",
+          "description": "Installation of transformer and other substations, including support for related permitting tasks."
+        },
+        {
+          "number": "02",
+          "title": "Underground cables",
+          "description": "Laying, installation, termination and related on-site works for underground cable systems."
+        },
+        {
+          "number": "03",
+          "title": "Busbar systems",
+          "description": "Installation and technological assembly of high-current industrial busbar systems."
+        },
+        {
+          "number": "04",
+          "title": "Industrial power supply",
+          "description": "Implementation and support of power-supply systems for worksites and industrial facilities."
+        },
+        {
+          "number": "05",
+          "title": "Smart metering and optimisation",
+          "description": "Installation of smart meters and technical solutions supporting more efficient energy use."
+        },
+        {
+          "number": "06",
+          "title": "Grid connections",
+          "description": "Planning, permitting and project-side coordination of grid connection solutions."
+        },
+        {
+          "number": "07",
+          "title": "ESCO project management",
+          "description": "Management of energy developments and ESCO-financed projects for industrial consumers."
+        }
+      ]
+    },
+    "references": {
+      "eyebrow": "References",
+      "title": "Selected energy projects",
+      "description": "Electrical-energy construction and project-management assignments listed in the company documentation.",
+      "items": [
+        {
+          "title": "BMW Debrecen – substations and cable works",
+          "meta": "2022",
+          "description": "Substation installation and cable-construction tasks within a YAPI MARKEZI project."
+        },
+        {
+          "title": "BMW Debrecen – worksite power supply",
+          "meta": "2022",
+          "description": "Construction assignments related to worksite electrical supply in cooperation with BMW–CÉH Zrt."
+        },
+        {
+          "title": "MVM Budapest – 1600 kVA transformer substation",
+          "meta": "2023",
+          "description": "Electrical-energy project tasks related to a 1600 kVA transformer substation."
+        },
+        {
+          "title": "BMW Debrecen – Siemens busbar system",
+          "meta": "2023–2024",
+          "description": "Construction tasks for a 4500 A Siemens busbar system in the TEM plant in cooperation with SIEMENS–BONITAS."
+        },
+        {
+          "title": "MVM ESCO projects",
+          "meta": "ESCO",
+          "description": "Coordination of industrial consumer energy developments and ESCO-financed projects in cooperation with MVM ESCO and MVM ESCO URBAN."
+        }
+      ]
+    },
+    "capacity": {
+      "eyebrow": "Available capacity",
+      "title": "Electrical specialists for industrial projects",
+      "description": "Electrical-energy professional capacity specified in the company documentation.",
+      "items": [
+        {
+          "value": "1",
+          "label": "high-current electrical engineer"
+        },
+        {
+          "value": "1",
+          "label": "medium-voltage licensed project manager"
+        },
+        {
+          "value": "6",
+          "label": "electricians"
+        }
+      ]
+    },
+    "contactCta": {
+      "eyebrow": "Energy cooperation",
+      "title": "Planning an electrical-energy project?",
+      "description": "Let us discuss your substation, industrial power supply, cable or busbar system, or an ESCO development.",
+      "button": "Contact us"
+    }
+  },
+  "technology": {
+    "title": "Technological Construction",
+    "description": "Steel-structure and technological prefabrication, on-site construction, welding and pipe-installation services for industrial projects.",
+    "hero": {
+      "number": "03",
+      "eyebrow": "Technological Construction",
+      "title": "Precise implementation of steel structures and industrial technology",
+      "description": "Fabrication, prefabrication, welding and pipe-installation capabilities for custom industrial and structural-steel assignments.",
+      "badges": [
+        "Steel fabrication",
+        "Technological prefabrication",
+        "TIG welding",
+        "Isometric pipe installation"
+      ]
+    },
+    "overview": {
+      "eyebrow": "Fabrication and construction",
+      "titleLine1": "From workshop",
+      "titleLine2": "to on-site installation",
+      "lead": "Over the years, the company expanded its activities with steel-structure and mechanical fabrication as well as technological prefabrication.",
+      "paragraph1": "Our technological construction work ranges from steel fabrication and preparation through on-site assembly, TIG welding and isometric pipe installation to integrated industrial implementation.",
+      "paragraph2": "The documented references include industrial manufacturing and technological projects as well as a proprietary steel-structure development, reflecting both fabrication and implementation expertise.",
+      "highlight": "The first phase of the steel grandstand at the Tóstrand City Stadium in Salgótarján is a fabrication and general-construction reference connected to an in-house development."
+    },
+    "capabilities": {
+      "eyebrow": "Capabilities",
+      "title": "Technological construction across coordinated disciplines",
+      "description": "Fabrication and on-site work are supported by professional capacity tailored to project requirements.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Steel fabrication",
+          "description": "Fabrication of custom steel elements and preparation for subsequent construction and assembly."
+        },
+        {
+          "number": "02",
+          "title": "Technological prefabrication",
+          "description": "Workshop prefabrication of industrial technological elements and installation units to support efficient on-site execution."
+        },
+        {
+          "number": "03",
+          "title": "On-site assembly",
+          "description": "On-site assembly, installation and construction of steel and technological structures."
+        },
+        {
+          "number": "04",
+          "title": "TIG welding",
+          "description": "TIG welding assignments for industrial and technological projects."
+        },
+        {
+          "number": "05",
+          "title": "Isometric pipe installation",
+          "description": "Pipe installation and related technological work based on isometric drawings."
+        },
+        {
+          "number": "06",
+          "title": "Project management",
+          "description": "Professional coordination of fabrication and construction phases throughout the project."
+        }
+      ]
+    },
+    "references": {
+      "eyebrow": "References",
+      "title": "Technological and steel-structure projects",
+      "description": "Selected technological and fabrication references listed in the company documentation.",
+      "items": [
+        {
+          "title": "Tóstrand City Stadium, Salgótarján",
+          "meta": "Steel structure",
+          "description": "Fabrication and general construction of the first phase of a 400-seat steel grandstand."
+        },
+        {
+          "title": "PIMCO Szerencs",
+          "meta": "Technology",
+          "description": "Industrial technological fabrication and construction assignments."
+        },
+        {
+          "title": "AGRO-Selye",
+          "meta": "Industrial construction",
+          "description": "A project listed in the documentation as a technological prefabrication and construction reference."
+        },
+        {
+          "title": "ILTARIAN Plastic Kft.",
+          "meta": "Industrial technology",
+          "description": "An industrial project listed in the documentation as a technological construction reference."
+        }
+      ]
+    },
+    "capacity": {
+      "eyebrow": "Available capacity",
+      "title": "Specialists from fabrication to installation",
+      "description": "Technological construction capacity specified in the company documentation.",
+      "items": [
+        {
+          "value": "1",
+          "label": "project manager"
+        },
+        {
+          "value": "3",
+          "label": "TIG welders"
+        },
+        {
+          "value": "3",
+          "label": "isometric pipe fitters"
+        }
+      ]
+    },
+    "contactCta": {
+      "eyebrow": "Technological project",
+      "title": "Need fabrication or on-site construction support?",
+      "description": "Contact us with your steel-structure, welding, pipe-installation or integrated technological construction requirements.",
+      "button": "Contact us"
+    }
+  },
+  "generalContracting": {
+    "title": "General Contracting",
+    "description": "Coordination, organisation and integrated implementation of complex construction and industrial investment projects.",
+    "hero": {
+      "number": "04",
+      "eyebrow": "General Contracting",
+      "title": "Coordinated delivery of complex investments",
+      "description": "Project preparation, discipline coordination and construction tasks managed within a unified general-contracting approach.",
+      "badges": [
+        "Project coordination",
+        "Industrial investments",
+        "Infrastructure",
+        "Integrated construction"
+      ]
+    },
+    "overview": {
+      "eyebrow": "General-contracting approach",
+      "titleLine1": "One project,",
+      "titleLine2": "coordinated responsibility",
+      "lead": "Over the decades, HEJŐTRADE expanded its activities to include general construction and contracting assignments.",
+      "paragraph1": "In a general-contractor role, technical preparation, coordination of disciplines, organisation of construction processes and project implementation are managed as one integrated system.",
+      "paragraph2": "Previous assignments include foundation and pipeline works related to a tank farm, water-management structures, and construction and preparatory works connected to major road and infrastructure investments.",
+      "highlight": "Our goal is to connect the different disciplines through a clear project structure, responsibilities and coordinated implementation."
+    },
+    "capabilities": {
+      "eyebrow": "General contracting",
+      "title": "Integrated project delivery from one coordinated structure",
+      "description": "General-contracting assignments are supported by organisational and discipline coordination tailored to the technical scope of each project.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Project preparation",
+          "description": "Technical and organisational preparation, work-package structuring and implementation framework for construction."
+        },
+        {
+          "number": "02",
+          "title": "Discipline coordination",
+          "description": "Coordination of construction, mechanical, electrical and technological disciplines throughout the project."
+        },
+        {
+          "number": "03",
+          "title": "Industrial construction",
+          "description": "Construction, foundation, pipeline and related implementation tasks for industrial facilities."
+        },
+        {
+          "number": "04",
+          "title": "Infrastructure works",
+          "description": "Construction and preparatory assignments related to road, water-management and other infrastructure projects."
+        },
+        {
+          "number": "05",
+          "title": "Structures and civil works",
+          "description": "Professional and construction coordination of project-specific structures and civil-engineering works."
+        },
+        {
+          "number": "06",
+          "title": "Project management",
+          "description": "Integrated coordination of participants, work phases and construction tasks from the project side."
+        }
+      ]
+    },
+    "references": {
+      "eyebrow": "References",
+      "title": "General-contracting and infrastructure experience",
+      "description": "Selected general-construction and infrastructure projects listed in the company documentation.",
+      "items": [
+        {
+          "title": "OPÁL Tank Farm, Vámosgyörk",
+          "meta": "Industrial construction",
+          "description": "Tank-foundation and pipeline-construction works connected to the implementation of the OPÁL Tank Farm."
+        },
+        {
+          "title": "Hany–Tiszasüly flood-control reservoir",
+          "meta": "Civil structures",
+          "description": "General construction assignments related to the implementation of Tubosider bridges."
+        },
+        {
+          "title": "M3 and M30 motorways",
+          "meta": "Infrastructure",
+          "description": "Site-preparation and construction works connected to major road investments in Northeastern Hungary."
+        },
+        {
+          "title": "Main Road No. 4 – Hajdúszoboszló bypass",
+          "meta": "Road construction",
+          "description": "Project assignments connected to the construction of the Hajdúszoboszló bypass section."
+        }
+      ]
+    },
+    "capacity": {
+      "eyebrow": "Project delivery",
+      "title": "Built on the coordination of multiple professional disciplines",
+      "description": "In general-contracting projects, the company can combine its mining, energy, construction and technological competencies as complementary capabilities.",
+      "items": [
+        {
+          "value": "01",
+          "label": "technical and organisational project preparation"
+        },
+        {
+          "value": "02",
+          "label": "discipline and subcontractor coordination"
+        },
+        {
+          "value": "03",
+          "label": "integrated management of construction processes"
+        }
+      ]
+    },
+    "contactCta": {
+      "eyebrow": "General-contracting cooperation",
+      "title": "Preparing a complex investment project?",
+      "description": "Tell us about your project and let us discuss the technical scope, required disciplines and possible implementation framework.",
+      "button": "Contact us"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Get in touch with us.",
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's Work Together",
+      "description": "If you are interested in our services, projects or a potential cooperation, please get in touch with us. Our professionals will be happy to assist you."
+    },
+    "info": {
+      "eyebrow": "Get in touch",
+      "title": "Contact Information",
+      "description": "HEJŐTRADE Kft. serves its partners from its Budapest headquarters and its office and site in Miskolc.",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "websiteLabel": "Website",
+      "phone": "+36 46 555 000",
+      "email": "info@hejotrade.hu"
+    },
+    "locations": {
+      "eyebrow": "Our Offices and Site",
+      "title": "Our Locations",
+      "description": "The headquarters and central administration of HEJŐTRADE Kft. are located in Budapest, while our office and site in Miskolc continue to play an important role in the company's operations.",
+      "mapLabel": "Map placeholder",
+      "items": [
+        {
+          "title": "Budapest Headquarters",
+          "address": "1135 Budapest, Fáy u. 93.",
+          "description": "Our headquarters and central administration are located in Budapest.",
+          "mapEmbedUrl": "https://www.google.com/maps?q=1135+Budapest,+F%C3%A1y+u.+93.&output=embed"
+        },
+        {
+          "title": "Budapest Office",
+          "address": "1144 Budapest, Füredi u. 74-76.",
+          "description": "Our Budapest office provides professional and administrative support for the company's operations.",
+          "mapEmbedUrl": "https://www.google.com/maps?q=1144+Budapest,+F%C3%BCredi+u.+74-76.&output=embed"
+        },
+        {
+          "title": "Miskolc Office and Site",
+          "address": "3519 Miskolc, Kócsag u. 12.",
+          "description": "Our Miskolc office and site serves as an important base for the company's professional and construction activities.",
+          "mapEmbedUrl": "https://www.google.com/maps?q=3519+Miskolc,+K%C3%B3csag+u.+12.&output=embed"
+        }
+      ]
+    },
+    "form": {
+      "eyebrow": "Send a Message",
+      "title": "Have a Question?",
+      "description": "Send us your enquiry and one of our colleagues will get back to you.",
+      "name": "Name",
+      "email": "Email address",
+      "phone": "Phone number",
+      "message": "Message",
+      "namePlaceholder": "Enter your name",
+      "emailPlaceholder": "Enter your email address",
+      "phonePlaceholder": "Enter your phone number",
+      "messagePlaceholder": "Write your message here...",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Thank you for your enquiry. We will get back to you shortly."
+    },
+    "companyData": {
+      "eyebrow": "Official Information",
+      "title": "Company Details",
+      "companyName": "Company name",
+      "companyType": "HEJŐTRADE Mining, Energy, Engineering and Service Ltd.",
+      "registrationLabel": "Company registration number",
+      "registrationNumber": "01-09-338908",
+      "taxLabel": "Tax number",
+      "taxNumber": "11580063-2-41",
+      "bankLabel": "Bank account",
+      "bankAccount": "UniCredit Bank 10918001-00000116-02220002"
+    }
+  },
+  "footer": {
+    "companyDescription": "Since 1997, we have been a Hungarian-owned company involved in mining, energy, construction and technological projects.",
+    "since": "Since 1997",
+    "navigationTitle": "Navigation",
+    "contactTitle": "Contact",
+    "headOffice": "Head office",
+    "budapestOffice": "Budapest office",
+    "miskolcOffice": "Miskolc office and site",
+    "companyRegistration": "Company registration:",
+    "taxNumber": "Tax number:",
+    "privacy": "Privacy Policy",
+    "legalNotice": "Legal Notice",
+    "rights": "All rights reserved."
+  }
+}
