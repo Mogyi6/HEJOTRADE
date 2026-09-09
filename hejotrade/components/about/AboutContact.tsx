@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 type Props = {
+  href: string;
   t: {
     eyebrow: string;
     title: string;
@@ -9,62 +10,35 @@ type Props = {
   };
 };
 
-export default function AboutContact({ t }: Props) {
+export default function AboutContact({ href, t }: Props) {
   return (
-    <section className="bg-[#F7F5EF] py-20 sm:py-24 lg:py-28">
-      <div className="mx-auto max-w-[1200px] px-6 lg:px-10">
-        <div className="relative overflow-hidden rounded-[2rem] bg-[#123F45] px-7 py-12 shadow-xl sm:px-12 sm:py-16 lg:px-20 lg:py-20">
-
-          {/* Dekoratív háttérelemek */}
-          <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-[#E8DCC4]/10 blur-3xl" />
-
-          <div className="absolute -bottom-32 -left-24 h-80 w-80 rounded-full bg-black/20 blur-3xl" />
-
-          <div className="absolute right-1/3 top-1/2 h-40 w-40 -translate-y-1/2 rounded-full bg-white/5 blur-3xl" />
-
-          <div className="relative flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
-
-            {/* Szöveg */}
-            <div className="max-w-2xl">
-              <span className="text-sm font-semibold uppercase tracking-[0.2em] text-[#E8DCC4]">
+    <section className="border-t border-white/10 bg-[#123F45]">
+      <div className="mx-auto max-w-[1400px] px-6 py-12 lg:px-10 lg:py-14">
+        <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center lg:gap-14">
+          <div className="grid gap-5 sm:grid-cols-[180px_minmax(0,1fr)] sm:items-start sm:gap-8">
+            <div className="border-t border-[#E8DCC4]/50 pt-3">
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#E8DCC4]">
                 {t.eyebrow}
               </span>
+            </div>
 
-              <h2 className="mt-4 text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
+            <div className="max-w-3xl">
+              <h2 className="text-2xl font-bold leading-tight text-white sm:text-3xl lg:text-4xl">
                 {t.title}
               </h2>
-
-              <p className="mt-5 leading-8 text-white/75">
+              <p className="mt-3 max-w-2xl leading-7 text-white/60">
                 {t.description}
               </p>
             </div>
-
-            {/* Gomb */}
-            <Link
-              href="/contact"
-              className="
-                inline-flex
-                shrink-0
-                items-center
-                justify-center
-                rounded-full
-                bg-[#E8DCC4]
-                px-7
-                py-4
-                text-sm
-                font-bold
-                text-[#123F45]
-                shadow-lg
-                transition-all
-                duration-300
-                hover:-translate-y-0.5
-                hover:bg-white
-                hover:shadow-xl
-              "
-            >
-              {t.button}
-            </Link>
           </div>
+
+          <Link
+            href={href}
+            className="inline-flex w-fit items-center gap-4 border border-[#E8DCC4]/60 px-6 py-3.5 text-sm font-bold text-[#E8DCC4] transition-all hover:bg-[#E8DCC4] hover:text-[#123F45]"
+          >
+            {t.button}
+            <span aria-hidden="true">→</span>
+          </Link>
         </div>
       </div>
     </section>
