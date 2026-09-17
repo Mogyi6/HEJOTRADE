@@ -514,7 +514,7 @@
       "button": "Contact us"
     }
   },
-  "technology": {
+"technology": {
   "title": "Mechanical and Industrial Technology Construction",
   "description": "Steel structure and technological prefabrication, on-site installation, welding, and piping works for industrial projects.",
   "hero": {
@@ -530,9 +530,8 @@
       "Fabrication and installation of pressure vessels",
       "Maintenance of pressure vessels"
     ]
-  }
-},
-    "overview": {
+  },
+  "overview": {
       "eyebrow": "Fabrication and construction",
       "titleLine1": "From workshop",
       "titleLine2": "to on-site installation",
