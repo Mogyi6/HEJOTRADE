@@ -12,7 +12,6 @@ type Reference = {
 type Props = {
   t: {
     eyebrow: string;
-    title: string;
     imagePlaceholder: string;
     items: Record<string, Reference>;
   };
@@ -37,12 +36,14 @@ function ZoomIcon({ small = false }: { small?: boolean }) {
           stroke="currentColor"
           strokeWidth="1.7"
         />
+
         <path
           d="M16 16l4 4"
           stroke="currentColor"
           strokeWidth="1.7"
           strokeLinecap="round"
         />
+
         <path
           d="M8.5 11h5M11 8.5v5"
           stroke="currentColor"
@@ -103,10 +104,6 @@ export default function AboutReferences({ t }: Props) {
             <span className="text-sm font-semibold uppercase tracking-[0.2em] text-[#01497c]">
               {t.eyebrow}
             </span>
-
-            <h2 className="mt-4 text-3xl font-bold text-[#123F45] sm:text-4xl lg:text-5xl">
-              {t.title}
-            </h2>
           </div>
 
           {/* REFERENCES */}
@@ -232,31 +229,35 @@ export default function AboutReferences({ t }: Props) {
 
                             {/* JOBB OLDALI KÉPEK */}
                             <div className="grid grid-rows-2 gap-1.5">
-                              {images.slice(1, 3).map((image, imageIndex) => (
-                                <button
-                                  key={image}
-                                  type="button"
-                                  onClick={() =>
-                                    openImage(
-                                      image,
-                                      `${reference.title} ${imageIndex + 2}`
-                                    )
-                                  }
-                                  className="group relative block overflow-hidden rounded-[0.8rem] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#E8DCC4]"
-                                >
-                                  <img
-                                    src={image}
-                                    alt={`${reference.title} ${imageIndex + 2}`}
-                                    className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.05]"
-                                  />
+                              {images
+                                .slice(1, 3)
+                                .map((image, imageIndex) => (
+                                  <button
+                                    key={image}
+                                    type="button"
+                                    onClick={() =>
+                                      openImage(
+                                        image,
+                                        `${reference.title} ${imageIndex + 2}`
+                                      )
+                                    }
+                                    className="group relative block overflow-hidden rounded-[0.8rem] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#E8DCC4]"
+                                  >
+                                    <img
+                                      src={image}
+                                      alt={`${reference.title} ${
+                                        imageIndex + 2
+                                      }`}
+                                      className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.05]"
+                                    />
 
-                                  <div className="absolute inset-0 bg-black/0 transition duration-300 group-hover:bg-black/20" />
+                                    <div className="absolute inset-0 bg-black/0 transition duration-300 group-hover:bg-black/20" />
 
-                                  <div className="absolute inset-0 flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100">
-                                    <ZoomIcon small />
-                                  </div>
-                                </button>
-                              ))}
+                                    <div className="absolute inset-0 flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100">
+                                      <ZoomIcon small />
+                                    </div>
+                                  </button>
+                                ))}
                             </div>
                           </div>
                         )}
