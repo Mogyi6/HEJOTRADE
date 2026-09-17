@@ -179,24 +179,24 @@
             "/images/references/bmw-3.jpg"
           ]
         },
-        "salgotarjan": {
-          "title": "Salgótarján Tóstrand",
-          "category": "Steel Structure Construction",
-          "description": "Manufacturing and general contracting of the first phase of the steel spectator stand at the city stadium.",
-          "images": [
-            "/images/references/salgotarjan-1.jpg",
-            "/images/references/salgotarjan-2.jpg"
-          ]
-        },
-        "pimco": {
-          "title": "PIMCO",
-          "category": "Technological Construction",
-          "description": "Industrial technological manufacturing and construction works.",
-          "images": [
-            "/images/references/pimco-1.jpg",
-            "/images/references/pimco-2.jpg"
-          ]
-        }
+"salgotarjan": {
+  "title": "Tóstrand Sports Complex, Salgótarján",
+  "category": "Steel Structure Construction",
+  "description": "General construction of a 200-seat grandstand.",
+  "images": [
+    "/images/references/salgotarjan-1.jpg",
+    "/images/references/salgotarjan-2.jpg"
+  ]
+},
+"pimco": {
+  "title": "Glass Wool Factory, Szerencs",
+  "category": "Industrial Technology Construction",
+  "description": "Mechanical and technological installation and maintenance.",
+  "images": [
+    "/images/references/pimco-1.jpg",
+    "/images/references/pimco-2.jpg"
+  ]
+}
       }
     },
     "partners": {
