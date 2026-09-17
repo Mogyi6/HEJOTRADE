@@ -515,18 +515,20 @@
     }
   },
   "technology": {
-    "title": "Technológiai kivitelezés",
+    "title": "Gépészeti technológiai kivitelezés",
     "description": "Acélszerkezeti és technológiai előgyártás, helyszíni kivitelezés, hegesztési és csőszerelési feladatok ipari projektekhez.",
     "hero": {
       "number": "03",
-      "eyebrow": "Technológiai kivitelezés",
-      "title": "Acélszerkezetek és ipari technológia precíz kivitelezése",
-      "description": "Gyártási, előgyártási, hegesztési és csőszerelési kompetenciák egyedi ipari és acélszerkezeti feladatok megvalósításához.",
+      "eyebrow": "Gépészeti technológiai kivitelezés",
+      "title": "Komplett gépészeti generál kivitelezés",
+      "description": "Tervezéstől a megvalósításig. Egyszerű és komplex gépészeti megvalósítás.",
       "badges": [
-        "Acélszerkezet gyártás",
-        "Technológiai előgyártás",
-        "AWI hegesztés",
-        "Izometriás csőszerelés"
+        "Készülékek gyártása, telepítése",
+        "Acélszerkezetek gyártás, telepítése",
+        "Hegesztési varratok hőkezelése",
+        "Rutin karbantartás",
+        "Nyomástartó edények gyártása, telepítése",
+        "Nyomástartó edények karbantartása"
       ]
     },
     "overview": {
