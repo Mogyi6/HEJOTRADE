@@ -515,20 +515,23 @@
     }
   },
   "technology": {
-    "title": "Technological Construction",
-    "description": "Steel-structure and technological prefabrication, on-site construction, welding and pipe-installation services for industrial projects.",
-    "hero": {
-      "number": "03",
-      "eyebrow": "Technological Construction",
-      "title": "Precise implementation of steel structures and industrial technology",
-      "description": "Fabrication, prefabrication, welding and pipe-installation capabilities for custom industrial and structural-steel assignments.",
-      "badges": [
-        "Steel fabrication",
-        "Technological prefabrication",
-        "TIG welding",
-        "Isometric pipe installation"
-      ]
-    },
+  "title": "Mechanical and Industrial Technology Construction",
+  "description": "Steel structure and technological prefabrication, on-site installation, welding, and piping works for industrial projects.",
+  "hero": {
+    "number": "03",
+    "eyebrow": "Mechanical and Industrial Technology Construction",
+    "title": "Complete Mechanical General Contracting",
+    "description": "From design to implementation. Delivery of both simple and complex mechanical engineering projects.",
+    "badges": [
+      "Fabrication and installation of equipment",
+      "Fabrication and installation of steel structures",
+      "Heat treatment of welded joints",
+      "Routine maintenance",
+      "Fabrication and installation of pressure vessels",
+      "Maintenance of pressure vessels"
+    ]
+  }
+},
     "overview": {
       "eyebrow": "Fabrication and construction",
       "titleLine1": "From workshop",
