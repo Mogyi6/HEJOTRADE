@@ -140,17 +140,17 @@
             "Structures"
           ]
         },
-        "steel": {
-          "number": "05",
-          "title": "Steel Structures",
-          "description": "Steel structure manufacturing, technological prefabrication and on-site construction.",
-          "services": [
-            "Steel structure manufacturing",
-            "TIG welding",
-            "Pipe fitting",
-            "Metalworking"
-          ]
-        },
+"steel": {
+  "number": "05",
+  "title": "Industrial Mechanical Engineering",
+  "description": "Steel structure fabrication, prefabrication of technological systems, and on-site installation.",
+  "services": [
+    "Industrial piping installation",
+    "Fabrication and installation of steel structures",
+    "Fabrication and installation of equipment",
+    "Industrial mechanical maintenance"
+  ]
+},
         "engineering": {
           "number": "06",
           "title": "Engineering Consulting",
