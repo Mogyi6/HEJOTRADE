@@ -581,17 +581,18 @@
       "eyebrow": "References",
       "title": "Technological and steel-structure projects",
       "description": "Selected technological and fabrication references listed in the company documentation.",
-      "items": [
-        {
-          "title": "Tóstrand City Stadium, Salgótarján",
-          "meta": "Steel structure",
-          "description": "Fabrication and general construction of the first phase of a 400-seat steel grandstand."
-        },
-        {
-          "title": "PIMCO Szerencs",
-          "meta": "Technology",
-          "description": "Industrial technological fabrication and construction assignments."
-        },
+      ""items": [
+  {
+    "title": "Tóstrand Stadium, Salgótarján",
+    "meta": "Steel Structure",
+    "description": "General construction of a 200-seat grandstand."
+  },
+  {
+    "title": "Glass Wool Factory, Szerencs",
+    "meta": "Industrial Technology",
+    "description": "Mechanical and technological construction and maintenance."
+  }
+,
         {
           "title": "AGRO-Selye",
           "meta": "Industrial construction",
