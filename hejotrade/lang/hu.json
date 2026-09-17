@@ -142,13 +142,13 @@
         },
         "steel": {
           "number": "05",
-          "title": "Acélszerkezetek",
+          "title": "Technológiai gépészeti kivitelezés",
           "description": "Acélszerkezeti gyártás, technológiai előgyártás és helyszíni kivitelezés.",
           "services": [
-            "Acélszerkezet gyártás",
-            "AWI hegesztés",
-            "Csőszerelés",
-            "Lakatos munkák"
+            "Technológiai csőszerelés",
+            "Acélszerkezetek gyártás, telepítése",
+            "Készülékek gyértésa, telepítése",
+            "Technológiai gépészeti karbantartás"
           ]
         },
         "engineering": {
