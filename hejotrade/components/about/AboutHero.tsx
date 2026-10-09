@@ -22,16 +22,11 @@ export default function AboutHero({ t }: Props) {
         min-h-0
         overflow-hidden
         bg-[#123F45]
-
         sm:h-[calc(100dvh-96px)]
-
         lg:h-[calc(100dvh-168px)]
       "
     >
-      {/* ================================================== */}
-      {/* HÁTTÉR DEKORÁCIÓ */}
-      {/* ================================================== */}
-
+      {/* Háttér dekoráció */}
       <div
         className="
           pointer-events-none
@@ -47,10 +42,7 @@ export default function AboutHero({ t }: Props) {
         "
       />
 
-      {/* ================================================== */}
-      {/* JOBB OLDALI HERO KÉP */}
-      {/* ================================================== */}
-
+      {/* Jobb oldali kép – beljebb ér a szöveg mögé */}
       <div
         className="
           absolute
@@ -58,9 +50,9 @@ export default function AboutHero({ t }: Props) {
           right-0
           z-0
           hidden
-          w-[55%]
+          w-[63%]
           lg:block
-          xl:w-[56%]
+          xl:w-[64%]
         "
       >
         <Image
@@ -68,18 +60,14 @@ export default function AboutHero({ t }: Props) {
           alt={t.title}
           fill
           priority
-          sizes="(max-width: 1023px) 0px, 56vw"
+          sizes="(max-width: 1023px) 0px, 64vw"
           className="object-cover"
         />
 
         {/* Finom sötét színezés */}
         <div className="absolute inset-0 bg-[#123F45]/10" />
 
-        {/* ================================================== */}
-        {/* BAL OLDALI ÁTMENET / BLUR */}
-        {/* ================================================== */}
-
-        {/* Alap színátmenet */}
+        {/* Keskenyebb színátmenet */}
         <div
           className="
             pointer-events-none
@@ -87,39 +75,25 @@ export default function AboutHero({ t }: Props) {
             inset-y-0
             left-0
             z-10
-            w-[48%]
+            w-[32%]
             bg-gradient-to-r
             from-[#123F45]
-            via-[#123F45]/85
+            via-[#123F45]/60
             to-transparent
           "
         />
 
-        {/* Lágy blur réteg */}
+        {/* Kisebb blur réteg */}
         <div
           className="
             pointer-events-none
             absolute
             inset-y-[-10%]
-            left-[-8%]
+            left-[-4%]
             z-10
-            w-[35%]
-            bg-[#123F45]/70
-            blur-[55px]
-          "
-        />
-
-        {/* Extra finom átmenet */}
-        <div
-          className="
-            pointer-events-none
-            absolute
-            inset-y-0
-            left-[8%]
-            z-10
-            w-[28%]
-            bg-[#123F45]/25
-            blur-[40px]
+            w-[18%]
+            bg-[#123F45]/50
+            blur-[30px]
           "
         />
 
@@ -139,10 +113,7 @@ export default function AboutHero({ t }: Props) {
         />
       </div>
 
-      {/* ================================================== */}
-      {/* TARTALOM */}
-      {/* ================================================== */}
-
+      {/* Tartalom */}
       <div
         className="
           relative
@@ -155,23 +126,16 @@ export default function AboutHero({ t }: Props) {
           items-center
           px-6
           py-8
-
           sm:px-8
           sm:py-10
-
           lg:px-16
           lg:py-12
         "
       >
-        {/* ================================================== */}
-        {/* BAL OLDAL – SZÖVEG */}
-        {/* ================================================== */}
-
         <div
           className="
             min-w-0
             max-w-2xl
-
             lg:w-[48%]
             xl:w-[46%]
           "
@@ -183,7 +147,6 @@ export default function AboutHero({ t }: Props) {
               uppercase
               tracking-[0.2em]
               text-[#E8DCC4]
-
               sm:text-sm
             "
           >
@@ -197,12 +160,9 @@ export default function AboutHero({ t }: Props) {
               font-bold
               leading-tight
               text-white
-
               sm:mt-4
               sm:text-4xl
-
               md:text-5xl
-
               lg:text-6xl
             "
           >
@@ -216,11 +176,9 @@ export default function AboutHero({ t }: Props) {
               text-sm
               leading-6
               text-white/75
-
               sm:mt-5
               sm:text-base
               sm:leading-7
-
               lg:mt-6
               lg:text-lg
               lg:leading-8
@@ -229,20 +187,15 @@ export default function AboutHero({ t }: Props) {
             {t.description}
           </p>
 
-          {/* ================================================== */}
-          {/* INFORMÁCIÓS KÁRTYÁK */}
-          {/* ================================================== */}
-
+          {/* Információs kártyák */}
           <div
             className="
               mt-6
               flex
               flex-wrap
               gap-3
-
               sm:mt-8
               sm:gap-4
-
               lg:mt-10
             "
           >
@@ -259,10 +212,8 @@ export default function AboutHero({ t }: Props) {
                 text-white
                 backdrop-blur-sm
                 transition
-
                 hover:border-[#E8DCC4]/40
                 hover:bg-white/10
-
                 sm:px-5
                 sm:py-3
                 sm:text-sm
@@ -284,10 +235,8 @@ export default function AboutHero({ t }: Props) {
                 text-white
                 backdrop-blur-sm
                 transition
-
                 hover:border-[#E8DCC4]/40
                 hover:bg-white/10
-
                 sm:px-5
                 sm:py-3
                 sm:text-sm
@@ -309,10 +258,8 @@ export default function AboutHero({ t }: Props) {
                 text-white
                 backdrop-blur-sm
                 transition
-
                 hover:border-[#E8DCC4]/40
                 hover:bg-white/10
-
                 sm:px-5
                 sm:py-3
                 sm:text-sm
