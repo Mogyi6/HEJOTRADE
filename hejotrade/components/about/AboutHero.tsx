@@ -18,98 +18,22 @@ export default function AboutHero({ t }: Props) {
     <section
       className="
         relative
-        h-[calc(100dvh-84px)]
-        min-h-0
+        min-h-[calc(100dvh-84px)]
         overflow-hidden
         bg-[#123F45]
-        sm:h-[calc(100dvh-96px)]
-        lg:h-[calc(100dvh-168px)]
+        sm:min-h-[calc(100dvh-96px)]
+        lg:min-h-[calc(100dvh-168px)]
       "
     >
-      {/* Háttér dekoráció */}
-      <div
-        className="
-          pointer-events-none
-          absolute
-          -bottom-40
-          -left-40
-          z-0
-          h-[450px]
-          w-[450px]
-          rounded-full
-          bg-[#E8DCC4]/10
-          blur-3xl
-        "
-      />
-
-      {/* Jobb oldali hero kép */}
-      <div
-        className="
-          absolute
-          inset-y-0
-          right-0
-          z-0
-          hidden
-          w-[63%]
-          lg:block
-          xl:w-[64%]
-        "
-      >
+      {/* Teljes háttérkép, levágás és blur nélkül */}
+      <div className="absolute inset-0">
         <Image
           src="/hero.jpg"
           alt={t.title}
           fill
           priority
-          sizes="(max-width: 1023px) 0px, 64vw"
-          className="object-cover"
-        />
-
-        {/* Finom sötét színezés */}
-        <div className="absolute inset-0 bg-[#123F45]/10" />
-
-        {/* Hosszabb színátmenet */}
-        <div
-          className="
-            pointer-events-none
-            absolute
-            inset-y-0
-            left-0
-            z-10
-            w-[55%]
-            bg-gradient-to-r
-            from-[#123F45]
-            via-[#123F45]/60
-            to-transparent
-          "
-        />
-
-        {/* Hosszabb, lágy blur réteg */}
-        <div
-          className="
-            pointer-events-none
-            absolute
-            inset-y-[-10%]
-            left-[-8%]
-            z-10
-            w-[32%]
-            bg-[#123F45]/45
-            blur-[55px]
-          "
-        />
-
-        {/* Alsó finom sötétítés */}
-        <div
-          className="
-            pointer-events-none
-            absolute
-            inset-x-0
-            bottom-0
-            z-10
-            h-40
-            bg-gradient-to-t
-            from-[#123F45]/35
-            to-transparent
-          "
+          sizes="100vw"
+          className="object-contain object-center"
         />
       </div>
 
@@ -117,26 +41,35 @@ export default function AboutHero({ t }: Props) {
       <div
         className="
           relative
-          z-20
+          z-10
           mx-auto
           flex
-          h-full
+          min-h-[calc(100dvh-84px)]
           w-full
           max-w-[1600px]
           items-center
           px-6
           py-8
+          sm:min-h-[calc(100dvh-96px)]
           sm:px-8
           sm:py-10
+          lg:min-h-[calc(100dvh-168px)]
           lg:px-16
           lg:py-12
         "
       >
+        {/* Sötét háttér kizárólag a szöveges tartalom mögött */}
         <div
           className="
             min-w-0
+            w-full
             max-w-2xl
+            rounded-2xl
+            bg-[#123F45]/90
+            p-6
+            sm:p-8
             lg:w-[48%]
+            lg:p-10
             xl:w-[46%]
           "
         >
@@ -175,7 +108,7 @@ export default function AboutHero({ t }: Props) {
               max-w-xl
               text-sm
               leading-6
-              text-white/75
+              text-white/80
               sm:mt-5
               sm:text-base
               sm:leading-7
@@ -199,74 +132,30 @@ export default function AboutHero({ t }: Props) {
               lg:mt-10
             "
           >
-            <div
-              className="
-                rounded-full
-                border
-                border-white/20
-                bg-white/5
-                px-4
-                py-2
-                text-xs
-                font-medium
-                text-white
-                backdrop-blur-sm
-                transition
-                hover:border-[#E8DCC4]/40
-                hover:bg-white/10
-                sm:px-5
-                sm:py-3
-                sm:text-sm
-              "
-            >
-              {t.since}
-            </div>
-
-            <div
-              className="
-                rounded-full
-                border
-                border-white/20
-                bg-white/5
-                px-4
-                py-2
-                text-xs
-                font-medium
-                text-white
-                backdrop-blur-sm
-                transition
-                hover:border-[#E8DCC4]/40
-                hover:bg-white/10
-                sm:px-5
-                sm:py-3
-                sm:text-sm
-              "
-            >
-              {t.ownership}
-            </div>
-
-            <div
-              className="
-                rounded-full
-                border
-                border-white/20
-                bg-white/5
-                px-4
-                py-2
-                text-xs
-                font-medium
-                text-white
-                backdrop-blur-sm
-                transition
-                hover:border-[#E8DCC4]/40
-                hover:bg-white/10
-                sm:px-5
-                sm:py-3
-                sm:text-sm
-              "
-            >
-              {t.engineering}
-            </div>
+            {[t.since, t.ownership, t.engineering].map((label, index) => (
+              <div
+                key={index}
+                className="
+                  rounded-full
+                  border
+                  border-white/20
+                  bg-white/5
+                  px-4
+                  py-2
+                  text-xs
+                  font-medium
+                  text-white
+                  transition
+                  hover:border-[#E8DCC4]/40
+                  hover:bg-white/10
+                  sm:px-5
+                  sm:py-3
+                  sm:text-sm
+                "
+              >
+                {label}
+              </div>
+            ))}
           </div>
         </div>
       </div>
