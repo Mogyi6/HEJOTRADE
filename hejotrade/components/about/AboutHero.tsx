@@ -42,7 +42,7 @@ export default function AboutHero({ t }: Props) {
         "
       />
 
-      {/* Jobb oldali kép – beljebb ér a szöveg mögé */}
+      {/* Jobb oldali hero kép */}
       <div
         className="
           absolute
@@ -67,7 +67,7 @@ export default function AboutHero({ t }: Props) {
         {/* Finom sötét színezés */}
         <div className="absolute inset-0 bg-[#123F45]/10" />
 
-        {/* Keskenyebb színátmenet */}
+        {/* Hosszabb színátmenet */}
         <div
           className="
             pointer-events-none
@@ -75,7 +75,7 @@ export default function AboutHero({ t }: Props) {
             inset-y-0
             left-0
             z-10
-            w-[32%]
+            w-[55%]
             bg-gradient-to-r
             from-[#123F45]
             via-[#123F45]/60
@@ -83,17 +83,17 @@ export default function AboutHero({ t }: Props) {
           "
         />
 
-        {/* Kisebb blur réteg */}
+        {/* Hosszabb, lágy blur réteg */}
         <div
           className="
             pointer-events-none
             absolute
             inset-y-[-10%]
-            left-[-4%]
+            left-[-8%]
             z-10
-            w-[18%]
-            bg-[#123F45]/50
-            blur-[30px]
+            w-[32%]
+            bg-[#123F45]/45
+            blur-[55px]
           "
         />
 
