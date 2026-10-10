@@ -26,15 +26,90 @@ export default function AboutHero({ t }: Props) {
         lg:h-[calc(100dvh-168px)]
       "
     >
-      {/* Kép a teljes Hero szélességében */}
-      <div className="absolute inset-0 z-0">
+      {/* Háttér dekoráció */}
+      <div
+        className="
+          pointer-events-none
+          absolute
+          -bottom-40
+          -left-40
+          z-0
+          h-[450px]
+          w-[450px]
+          rounded-full
+          bg-[#E8DCC4]/10
+          blur-3xl
+        "
+      />
+
+      {/* Szélesebb jobb oldali hero kép */}
+      <div
+        className="
+          absolute
+          inset-y-0
+          right-0
+          z-0
+          hidden
+          w-[75%]
+          lg:block
+          xl:w-[78%]
+        "
+      >
         <Image
           src="/hero.jpg"
           alt={t.title}
           fill
           priority
-          sizes="100vw"
+          sizes="(max-width: 1023px) 0px, (max-width: 1279px) 75vw, 78vw"
           className="object-cover"
+        />
+
+        {/* Finom sötét színezés */}
+        <div className="absolute inset-0 bg-[#123F45]/10" />
+
+        {/* Korábban kezdődő, hosszabb színátmenet */}
+        <div
+          className="
+            pointer-events-none
+            absolute
+            inset-y-0
+            left-0
+            z-10
+            w-[70%]
+          "
+          style={{
+            background:
+              "linear-gradient(to right, #123F45 0%, rgba(18,63,69,0.98) 15%, rgba(18,63,69,0.85) 35%, rgba(18,63,69,0.55) 55%, rgba(18,63,69,0.2) 78%, transparent 100%)",
+          }}
+        />
+
+        {/* Hosszabb, lágy blur réteg */}
+        <div
+          className="
+            pointer-events-none
+            absolute
+            inset-y-[-10%]
+            left-[-10%]
+            z-10
+            w-[45%]
+            bg-[#123F45]/45
+            blur-[70px]
+          "
+        />
+
+        {/* Alsó finom sötétítés */}
+        <div
+          className="
+            pointer-events-none
+            absolute
+            inset-x-0
+            bottom-0
+            z-10
+            h-40
+            bg-gradient-to-t
+            from-[#123F45]/35
+            to-transparent
+          "
         />
       </div>
 
@@ -137,6 +212,7 @@ export default function AboutHero({ t }: Props) {
                   text-xs
                   font-medium
                   text-white
+                  backdrop-blur-sm
                   transition
                   hover:border-[#E8DCC4]/40
                   hover:bg-white/10
