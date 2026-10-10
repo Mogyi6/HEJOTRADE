@@ -26,25 +26,14 @@ export default function AboutHero({ t }: Props) {
         lg:h-[calc(100dvh-168px)]
       "
     >
-      {/* Jobb oldali hero kép */}
-      <div
-        className="
-          absolute
-          inset-y-0
-          right-0
-          z-0
-          hidden
-          w-[63%]
-          lg:block
-          xl:w-[64%]
-        "
-      >
+      {/* Kép a teljes Hero szélességében */}
+      <div className="absolute inset-0 z-0">
         <Image
           src="/hero.jpg"
           alt={t.title}
           fill
           priority
-          sizes="(max-width: 1023px) 0px, 64vw"
+          sizes="100vw"
           className="object-cover"
         />
       </div>
@@ -135,71 +124,30 @@ export default function AboutHero({ t }: Props) {
               lg:mt-10
             "
           >
-            <div
-              className="
-                rounded-full
-                border
-                border-white/20
-                bg-white/5
-                px-4
-                py-2
-                text-xs
-                font-medium
-                text-white
-                transition
-                hover:border-[#E8DCC4]/40
-                hover:bg-white/10
-                sm:px-5
-                sm:py-3
-                sm:text-sm
-              "
-            >
-              {t.since}
-            </div>
-
-            <div
-              className="
-                rounded-full
-                border
-                border-white/20
-                bg-white/5
-                px-4
-                py-2
-                text-xs
-                font-medium
-                text-white
-                transition
-                hover:border-[#E8DCC4]/40
-                hover:bg-white/10
-                sm:px-5
-                sm:py-3
-                sm:text-sm
-              "
-            >
-              {t.ownership}
-            </div>
-
-            <div
-              className="
-                rounded-full
-                border
-                border-white/20
-                bg-white/5
-                px-4
-                py-2
-                text-xs
-                font-medium
-                text-white
-                transition
-                hover:border-[#E8DCC4]/40
-                hover:bg-white/10
-                sm:px-5
-                sm:py-3
-                sm:text-sm
-              "
-            >
-              {t.engineering}
-            </div>
+            {[t.since, t.ownership, t.engineering].map((label, index) => (
+              <div
+                key={index}
+                className="
+                  rounded-full
+                  border
+                  border-white/20
+                  bg-white/5
+                  px-4
+                  py-2
+                  text-xs
+                  font-medium
+                  text-white
+                  transition
+                  hover:border-[#E8DCC4]/40
+                  hover:bg-white/10
+                  sm:px-5
+                  sm:py-3
+                  sm:text-sm
+                "
+              >
+                {label}
+              </div>
+            ))}
           </div>
         </div>
       </div>
