@@ -18,22 +18,34 @@ export default function AboutHero({ t }: Props) {
     <section
       className="
         relative
-        min-h-[calc(100dvh-84px)]
+        h-[calc(100dvh-84px)]
+        min-h-0
         overflow-hidden
         bg-[#123F45]
-        sm:min-h-[calc(100dvh-96px)]
-        lg:min-h-[calc(100dvh-168px)]
+        sm:h-[calc(100dvh-96px)]
+        lg:h-[calc(100dvh-168px)]
       "
     >
-      {/* Teljes háttérkép, levágás és blur nélkül */}
-      <div className="absolute inset-0">
+      {/* Jobb oldali hero kép */}
+      <div
+        className="
+          absolute
+          inset-y-0
+          right-0
+          z-0
+          hidden
+          w-[63%]
+          lg:block
+          xl:w-[64%]
+        "
+      >
         <Image
           src="/hero.jpg"
           alt={t.title}
           fill
           priority
-          sizes="100vw"
-          className="object-contain object-center"
+          sizes="(max-width: 1023px) 0px, 64vw"
+          className="object-cover"
         />
       </div>
 
@@ -41,35 +53,26 @@ export default function AboutHero({ t }: Props) {
       <div
         className="
           relative
-          z-10
+          z-20
           mx-auto
           flex
-          min-h-[calc(100dvh-84px)]
+          h-full
           w-full
           max-w-[1600px]
           items-center
           px-6
           py-8
-          sm:min-h-[calc(100dvh-96px)]
           sm:px-8
           sm:py-10
-          lg:min-h-[calc(100dvh-168px)]
           lg:px-16
           lg:py-12
         "
       >
-        {/* Sötét háttér kizárólag a szöveges tartalom mögött */}
         <div
           className="
             min-w-0
-            w-full
             max-w-2xl
-            rounded-2xl
-            bg-[#123F45]/90
-            p-6
-            sm:p-8
             lg:w-[48%]
-            lg:p-10
             xl:w-[46%]
           "
         >
@@ -108,7 +111,7 @@ export default function AboutHero({ t }: Props) {
               max-w-xl
               text-sm
               leading-6
-              text-white/80
+              text-white/75
               sm:mt-5
               sm:text-base
               sm:leading-7
@@ -132,30 +135,71 @@ export default function AboutHero({ t }: Props) {
               lg:mt-10
             "
           >
-            {[t.since, t.ownership, t.engineering].map((label, index) => (
-              <div
-                key={index}
-                className="
-                  rounded-full
-                  border
-                  border-white/20
-                  bg-white/5
-                  px-4
-                  py-2
-                  text-xs
-                  font-medium
-                  text-white
-                  transition
-                  hover:border-[#E8DCC4]/40
-                  hover:bg-white/10
-                  sm:px-5
-                  sm:py-3
-                  sm:text-sm
-                "
-              >
-                {label}
-              </div>
-            ))}
+            <div
+              className="
+                rounded-full
+                border
+                border-white/20
+                bg-white/5
+                px-4
+                py-2
+                text-xs
+                font-medium
+                text-white
+                transition
+                hover:border-[#E8DCC4]/40
+                hover:bg-white/10
+                sm:px-5
+                sm:py-3
+                sm:text-sm
+              "
+            >
+              {t.since}
+            </div>
+
+            <div
+              className="
+                rounded-full
+                border
+                border-white/20
+                bg-white/5
+                px-4
+                py-2
+                text-xs
+                font-medium
+                text-white
+                transition
+                hover:border-[#E8DCC4]/40
+                hover:bg-white/10
+                sm:px-5
+                sm:py-3
+                sm:text-sm
+              "
+            >
+              {t.ownership}
+            </div>
+
+            <div
+              className="
+                rounded-full
+                border
+                border-white/20
+                bg-white/5
+                px-4
+                py-2
+                text-xs
+                font-medium
+                text-white
+                transition
+                hover:border-[#E8DCC4]/40
+                hover:bg-white/10
+                sm:px-5
+                sm:py-3
+                sm:text-sm
+              "
+            >
+              {t.engineering}
+            </div>
           </div>
         </div>
       </div>
