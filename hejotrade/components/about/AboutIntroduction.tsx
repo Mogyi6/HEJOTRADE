@@ -18,8 +18,8 @@ export default function AboutIntroduction({ t }: Props) {
   return (
     <section className="bg-[#F7F5EF] py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-[1300px] px-6 lg:px-10">
-        {/* Cím és bevezető */}
-        <div className="mb-10 lg:mb-14">
+        {/* Cím és alatta a bevezető */}
+        <div className="mb-10 lg:mb-12">
           <div className="mb-5 flex items-center gap-3">
             <span className="h-px w-10 shrink-0 bg-[#123F45]" />
 
@@ -28,19 +28,15 @@ export default function AboutIntroduction({ t }: Props) {
             </span>
           </div>
 
-          <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-end lg:gap-16">
-            <h2 className="text-3xl font-bold leading-tight text-[#123F45] sm:text-4xl lg:text-5xl">
-              {t.titleLine1}
-              <br />
-              {t.titleLine2}
-              <br />
-              {t.titleLine3}
-            </h2>
+          <h2 className="text-3xl font-bold leading-tight tracking-tight text-[#123F45] sm:text-4xl lg:text-[40px] xl:text-5xl">
+            {t.titleLine1}{" "}
+            {t.titleLine2}{" "}
+            {t.titleLine3}
+          </h2>
 
-            <p className="max-w-md text-base leading-7 text-gray-600 lg:pb-1 lg:text-lg lg:leading-8">
-              {t.lead}
-            </p>
-          </div>
+          <p className="mt-6 max-w-[1000px] text-base leading-7 text-gray-600 lg:text-lg lg:leading-8">
+            {t.lead}
+          </p>
         </div>
 
         {/* Portré és bemutatkozó szöveg */}
