@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type Props = {
   t: {
     eyebrow: string;
@@ -16,10 +18,10 @@ export default function AboutIntroduction({ t }: Props) {
   return (
     <section className="bg-[#F7F5EF] py-20 sm:py-24 lg:py-28">
       <div className="mx-auto max-w-[1300px] px-6 lg:px-10">
-        <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:items-center lg:gap-20">
+        <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:items-start lg:gap-20">
           <div>
             <div className="mb-5 flex items-center gap-3">
-              <span className="h-px w-10 bg-[#123F45]" />
+              <span className="h-px w-10 shrink-0 bg-[#123F45]" />
 
               <span className="text-sm font-semibold uppercase tracking-[0.2em] text-[#123F45]">
                 {t.eyebrow}
@@ -37,6 +39,17 @@ export default function AboutIntroduction({ t }: Props) {
             <p className="mt-6 max-w-md text-base leading-7 text-gray-600">
               {t.lead}
             </p>
+
+            <div className="mx-auto mt-8 w-full max-w-[320px] sm:max-w-[360px] lg:mx-0">
+              <Image
+                src="/images/BanhegyiArpad.JPG"
+                alt="Bánhegyi Árpád"
+                width={720}
+                height={900}
+                sizes="(max-width: 639px) 320px, 360px"
+                className="block h-auto w-full rounded-2xl shadow-lg"
+              />
+            </div>
           </div>
 
           <div className="space-y-6">
